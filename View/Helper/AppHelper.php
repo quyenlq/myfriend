@@ -31,4 +31,22 @@ App::uses('Helper', 'View');
  * @package       app.View.Helper
  */
 class AppHelper extends Helper {
+	/* Change the following constants to suit your language */
+
+	/* The functions takes the date as a timestamp */        
+	public function cu_following($cu, $u){
+		$followeds=$cu['followed'];
+		foreach ($followeds as $followed) {
+			if($followed["Relationship"]['follower_id']==$u["User"]["id"]){
+				return true;
+			}
+		}
+		return false;
+	}
+
+	public function Gravatar_for_user($user, $size=50){
+	    $gravatar_id = md5($user["User"]["email"]);
+    	$gravatar_url = "https://secure.gravatar.com/avatar/".$gravatar_id."?s=".$size;
+	    echo "<img src=".$gravatar_url." class='gravatar'>";
+	}
 }

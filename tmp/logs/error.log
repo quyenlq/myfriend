@@ -8,3 +8,2300 @@ Stack Trace:
 #3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2013-05-08 05:51:42 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /myfriend/users
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-05-08 05:51:49 Error: [MissingActionException] Action UsersController::admin_index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'admin_index',
+)
+Request URL: /myfriend/admin/users
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-05-08 05:51:57 Error: [MissingViewException] View file "C:\xampp\htdocs\myfriend\View\Microposts\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\myfriend\\View\\Microposts\\index.ctp',
+)
+Request URL: /myfriend/microposts
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Controller\Controller.php(948): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(MicropostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-05-08 05:53:01 Error: [MissingActionException] Action UsersController::add() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'add',
+)
+Request URL: /myfriend/users/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-05-08 05:53:03 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /myfriend/users
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-05-08 05:54:09 Error: [MissingActionException] Action Users::admin_index() could not be found.
+Exception Attributes: array (
+  'controller' => 'Users',
+  'action' => 'admin_index',
+)
+Request URL: /myfriend/admin/users
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Controller\Scaffold.php(152): Scaffold->_scaffold(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Controller\Controller.php(531): Scaffold->__construct(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Controller\Controller.php(490): Controller->_getScaffold(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2013-05-08 05:55:21 Error: [MissingActionException] Action UsersController::1() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => '1',
+)
+Request URL: /myfriend/users/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-05-08 05:55:27 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /myfriend/user/1
+Stack Trace:
+#0 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-08 05:55:37 Error: [MissingViewException] View file "C:\xampp\htdocs\myfriend\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\myfriend\\View\\Users\\index.ctp',
+)
+Request URL: /myfriend/users
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Controller\Controller.php(948): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-05-08 05:56:16 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /myfriend/user/1
+Stack Trace:
+#0 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-08 05:56:22 Error: [MissingActionException] Action UsersController::1() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => '1',
+)
+Request URL: /myfriend/users/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-05-08 05:56:33 Error: [MissingActionException] Action UsersController::show() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'show',
+)
+Request URL: /myfriend/users/show/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-05-08 05:59:01 Error: [MissingControllerException] Controller class Link1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Link1Controller',
+  'plugin' => NULL,
+)
+Request URL: /myfriend/link1
+Stack Trace:
+#0 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-08 05:59:03 Error: [MissingControllerException] Controller class Link2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Link2Controller',
+  'plugin' => NULL,
+)
+Request URL: /myfriend/link2
+Stack Trace:
+#0 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-08 05:59:04 Error: [MissingControllerException] Controller class Link2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Link2Controller',
+  'plugin' => NULL,
+)
+Request URL: /myfriend/link2
+Stack Trace:
+#0 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-08 05:59:04 Error: [MissingControllerException] Controller class Link3Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Link3Controller',
+  'plugin' => NULL,
+)
+Request URL: /myfriend/link3
+Stack Trace:
+#0 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-08 06:01:02 Error: [MissingControllerException] Controller class Link3Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Link3Controller',
+  'plugin' => NULL,
+)
+Request URL: /myfriend/link3
+Stack Trace:
+#0 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-08 06:01:05 Error: [MissingControllerException] Controller class UersController could not be found.
+Exception Attributes: array (
+  'class' => 'UersController',
+  'plugin' => NULL,
+)
+Request URL: /myfriend/uers
+Stack Trace:
+#0 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-08 06:01:13 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /myfriend/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-05-08 06:01:15 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /myfriend/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-05-08 06:06:42 Error: [MissingViewException] View file "C:\xampp\htdocs\myfriend\View\Users\login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\myfriend\\View\\Users\\login.ctp',
+)
+Request URL: /myfriend/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Controller\Controller.php(948): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-05-08 07:14:55 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.username' in 'where clause'
+Request URL: /myfriend/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `User`.`...', Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Model\Datasource\DboSource.php(670): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Model\Datasource\DboSource.php(1081): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Model\Model.php(2696): DboSource->read(Object(User), Array)
+#5 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Controller\Component\Auth\BaseAuthenticate.php(99): Model->find('first', Array)
+#6 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Controller\Component\Auth\FormAuthenticate.php(81): BaseAuthenticate->_findUser('user@myfriend.c...', 'foobar')
+#7 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Controller\Component\AuthComponent.php(695): FormAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#8 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Controller\Component\AuthComponent.php(547): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\myfriend\Controller\UsersController.php(100): AuthComponent->login()
+#10 [internal function]: UsersController->login()
+#11 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Controller\Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#12 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#13 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2013-05-08 07:15:14 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.username' in 'where clause'
+Request URL: /myfriend/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `User`.`...', Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Model\Datasource\DboSource.php(670): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Model\Datasource\DboSource.php(1081): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Model\Model.php(2696): DboSource->read(Object(User), Array)
+#5 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Controller\Component\Auth\BaseAuthenticate.php(99): Model->find('first', Array)
+#6 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Controller\Component\Auth\FormAuthenticate.php(81): BaseAuthenticate->_findUser('user@myfriend.c...', 'foobar')
+#7 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Controller\Component\AuthComponent.php(695): FormAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#8 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Controller\Component\AuthComponent.php(547): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\myfriend\Controller\UsersController.php(100): AuthComponent->login()
+#10 [internal function]: UsersController->login()
+#11 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Controller\Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#12 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#13 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2013-05-08 07:15:18 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.username' in 'where clause'
+Request URL: /myfriend/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `User`.`...', Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Model\Datasource\DboSource.php(670): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Model\Datasource\DboSource.php(1081): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Model\Model.php(2696): DboSource->read(Object(User), Array)
+#5 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Controller\Component\Auth\BaseAuthenticate.php(99): Model->find('first', Array)
+#6 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Controller\Component\Auth\FormAuthenticate.php(81): BaseAuthenticate->_findUser('user@myfriend.c...', 'foobar')
+#7 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Controller\Component\AuthComponent.php(695): FormAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#8 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Controller\Component\AuthComponent.php(547): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\myfriend\Controller\UsersController.php(100): AuthComponent->login()
+#10 [internal function]: UsersController->login()
+#11 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Controller\Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#12 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#13 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2013-05-08 08:20:11 Error: [MissingControllerException] Controller class Link1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Link1Controller',
+  'plugin' => NULL,
+)
+Request URL: /myfriend/link1
+Stack Trace:
+#0 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-08 08:33:30 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.username' in 'where clause'
+Request URL: /myfriend/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `User`.`...', Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Model\Datasource\DboSource.php(670): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Model\Datasource\DboSource.php(1081): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Model\Model.php(2696): DboSource->read(Object(User), Array)
+#5 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Controller\Component\Auth\BaseAuthenticate.php(99): Model->find('first', Array)
+#6 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Controller\Component\Auth\FormAuthenticate.php(81): BaseAuthenticate->_findUser('lucquocquyen2@g...', '123123')
+#7 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Controller\Component\AuthComponent.php(695): FormAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#8 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Controller\Component\AuthComponent.php(547): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\myfriend\Controller\UsersController.php(108): AuthComponent->login()
+#10 [internal function]: UsersController->login()
+#11 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Controller\Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#12 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#13 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2013-05-08 08:33:39 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.username' in 'where clause'
+Request URL: /myfriend/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `User`.`...', Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Model\Datasource\DboSource.php(670): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Model\Datasource\DboSource.php(1081): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Model\Model.php(2696): DboSource->read(Object(User), Array)
+#5 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Controller\Component\Auth\BaseAuthenticate.php(99): Model->find('first', Array)
+#6 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Controller\Component\Auth\FormAuthenticate.php(81): BaseAuthenticate->_findUser('lucquocquyen2@g...', '123123')
+#7 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Controller\Component\AuthComponent.php(695): FormAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#8 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Controller\Component\AuthComponent.php(547): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\myfriend\Controller\UsersController.php(108): AuthComponent->login()
+#10 [internal function]: UsersController->login()
+#11 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Controller\Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#12 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#13 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2013-05-08 08:33:47 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.username' in 'where clause'
+Request URL: /myfriend/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `User`.`...', Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Model\Datasource\DboSource.php(670): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Model\Datasource\DboSource.php(1081): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Model\Model.php(2696): DboSource->read(Object(User), Array)
+#5 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Controller\Component\Auth\BaseAuthenticate.php(99): Model->find('first', Array)
+#6 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Controller\Component\Auth\FormAuthenticate.php(81): BaseAuthenticate->_findUser('lucquocquyen2@g...', '123123')
+#7 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Controller\Component\AuthComponent.php(695): FormAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#8 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Controller\Component\AuthComponent.php(547): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\myfriend\Controller\UsersController.php(108): AuthComponent->login()
+#10 [internal function]: UsersController->login()
+#11 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Controller\Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#12 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#13 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2013-05-08 08:34:02 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.username' in 'where clause'
+Request URL: /myfriend/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `User`.`...', Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Model\Datasource\DboSource.php(670): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Model\Datasource\DboSource.php(1081): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Model\Model.php(2696): DboSource->read(Object(User), Array)
+#5 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Controller\Component\Auth\BaseAuthenticate.php(99): Model->find('first', Array)
+#6 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Controller\Component\Auth\FormAuthenticate.php(81): BaseAuthenticate->_findUser('lucquocquyen2@g...', '123123')
+#7 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Controller\Component\AuthComponent.php(695): FormAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#8 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Controller\Component\AuthComponent.php(547): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\myfriend\Controller\UsersController.php(108): AuthComponent->login()
+#10 [internal function]: UsersController->login()
+#11 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Controller\Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#12 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#13 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2013-05-08 08:43:16 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF) in [C:\xampp\htdocs\myfriend\Controller\UsersController.php, line 108]
+2013-05-08 08:43:16 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF)
+Request URL: /myfriend/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 108)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 108, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 108, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 12:26:25 Error: [MissingControllerException] Controller class Link1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Link1Controller',
+  'plugin' => NULL,
+)
+Request URL: /myfriend/link1
+Stack Trace:
+#0 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-08 12:26:27 Error: [MissingControllerException] Controller class Link2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Link2Controller',
+  'plugin' => NULL,
+)
+Request URL: /myfriend/link2
+Stack Trace:
+#0 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-08 12:26:28 Error: [MissingControllerException] Controller class Link3Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Link3Controller',
+  'plugin' => NULL,
+)
+Request URL: /myfriend/link3
+Stack Trace:
+#0 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-08 12:28:01 Error: [MissingControllerException] Controller class Link2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Link2Controller',
+  'plugin' => NULL,
+)
+Request URL: /myfriend/link2
+Stack Trace:
+#0 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-08 12:28:13 Error: [MissingControllerException] Controller class Link2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Link2Controller',
+  'plugin' => NULL,
+)
+Request URL: /myfriend/link2
+Stack Trace:
+#0 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-08 12:46:46 Error: Fatal Error (1): Call to a member function findByEmail() on a non-object in [C:\xampp\htdocs\myfriend\Controller\AppController.php, line 46]
+2013-05-08 12:46:46 Error: [FatalErrorException] Call to a member function findByEmail() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 46)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 46, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 46, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 12:47:31 Error: Fatal Error (1): Call to a member function findByEmail() on a non-object in [C:\xampp\htdocs\myfriend\Controller\AppController.php, line 46]
+2013-05-08 12:47:31 Error: [FatalErrorException] Call to a member function findByEmail() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 46)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 46, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 46, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 12:48:06 Error: Fatal Error (1): Call to a member function findByEmail() on a non-object in [C:\xampp\htdocs\myfriend\Controller\AppController.php, line 46]
+2013-05-08 12:48:06 Error: [FatalErrorException] Call to a member function findByEmail() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 46)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 46, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 46, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 12:48:08 Error: Fatal Error (1): Call to a member function findByEmail() on a non-object in [C:\xampp\htdocs\myfriend\Controller\AppController.php, line 46]
+2013-05-08 12:48:08 Error: [FatalErrorException] Call to a member function findByEmail() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 46)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 46, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 46, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 12:48:09 Error: [NotFoundException] Invalid user
+Request URL: /myfriend/users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Controller\Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-05-08 12:48:09 Error: Fatal Error (1): Call to a member function findByEmail() on a non-object in [C:\xampp\htdocs\myfriend\Controller\AppController.php, line 46]
+2013-05-08 12:48:09 Error: [FatalErrorException] Call to a member function findByEmail() on a non-object
+Request URL: /myfriend/users/edit
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 46)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 46, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 46, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 12:48:18 Error: Fatal Error (1): Call to a member function findByEmail() on a non-object in [C:\xampp\htdocs\myfriend\Controller\AppController.php, line 46]
+2013-05-08 12:48:18 Error: [FatalErrorException] Call to a member function findByEmail() on a non-object
+Request URL: /myfriend/microposts
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 46)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 46, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 46, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 12:53:02 Error: Fatal Error (4): syntax error, unexpected 'current_user' (T_STRING), expecting '(' in [C:\xampp\htdocs\myfriend\Controller\AppController.php, line 47]
+2013-05-08 12:53:02 Error: [FatalErrorException] syntax error, unexpected 'current_user' (T_STRING), expecting '('
+Request URL: /myfriend/users
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 47)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 47, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 47, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 12:53:08 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [C:\xampp\htdocs\myfriend\Controller\UsersController.php, line 119]
+2013-05-08 12:53:08 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /myfriend/users
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 119)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 119, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 119, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 12:53:40 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [C:\xampp\htdocs\myfriend\Controller\UsersController.php, line 119]
+2013-05-08 12:53:40 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /myfriend/users
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 119)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 119, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 119, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 12:55:42 Error: Fatal Error (1): Call to undefined function isLoggedIn() in [C:\xampp\htdocs\myfriend\View\Layouts\my_layout.ctp, line 37]
+2013-05-08 12:55:42 Error: [FatalErrorException] Call to undefined function isLoggedIn()
+Request URL: /myfriend/users
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\xampp\htdocs...', 37)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\xampp\htdocs...', 37, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\xampp\htdocs...', 37, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 12:56:15 Error: Fatal Error (1): Call to undefined method View::isLoggedIn() in [C:\xampp\htdocs\myfriend\View\Layouts\my_layout.ctp, line 37]
+2013-05-08 12:56:15 Error: [FatalErrorException] Call to undefined method View::isLoggedIn()
+Request URL: /myfriend/users
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\xampp\htdocs...', 37)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\xampp\htdocs...', 37, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\xampp\htdocs...', 37, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 12:57:19 Error: Fatal Error (1): Call to undefined function current_user() in [C:\xampp\htdocs\myfriend\Controller\AppController.php, line 46]
+2013-05-08 12:57:19 Error: [FatalErrorException] Call to undefined function current_user()
+Request URL: /myfriend/users
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\xampp\htdocs...', 46)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\xampp\htdocs...', 46, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\xampp\htdocs...', 46, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 12:57:42 Error: Fatal Error (1): Call to a member function findByEmail() on a non-object in [C:\xampp\htdocs\myfriend\Controller\AppController.php, line 50]
+2013-05-08 12:57:42 Error: [FatalErrorException] Call to a member function findByEmail() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 50)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 50, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 50, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 12:58:38 Error: Fatal Error (4): syntax error, unexpected ''current_user'' (T_CONSTANT_ENCAPSED_STRING) in [C:\xampp\htdocs\myfriend\Controller\AppController.php, line 46]
+2013-05-08 12:58:38 Error: [FatalErrorException] syntax error, unexpected ''current_user'' (T_CONSTANT_ENCAPSED_STRING)
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 46)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 46, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 46, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 12:58:54 Error: Fatal Error (4): syntax error, unexpected ''current_user'' (T_CONSTANT_ENCAPSED_STRING) in [C:\xampp\htdocs\myfriend\Controller\AppController.php, line 46]
+2013-05-08 12:58:54 Error: [FatalErrorException] syntax error, unexpected ''current_user'' (T_CONSTANT_ENCAPSED_STRING)
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 46)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 46, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 46, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 12:59:03 Error: Fatal Error (1): Call to a member function findByEmail() on a non-object in [C:\xampp\htdocs\myfriend\Controller\AppController.php, line 50]
+2013-05-08 12:59:03 Error: [FatalErrorException] Call to a member function findByEmail() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 50)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 50, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 50, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 12:59:17 Error: Fatal Error (1): Call to a member function findByEmail() on a non-object in [C:\xampp\htdocs\myfriend\Controller\AppController.php, line 50]
+2013-05-08 12:59:17 Error: [FatalErrorException] Call to a member function findByEmail() on a non-object
+Request URL: /myfriend/microposts
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 50)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 50, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 50, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 12:59:33 Error: Fatal Error (1): Call to a member function findByEmail() on a non-object in [C:\xampp\htdocs\myfriend\Controller\AppController.php, line 50]
+2013-05-08 12:59:33 Error: [FatalErrorException] Call to a member function findByEmail() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 50)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 50, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 50, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 13:02:17 Error: Fatal Error (4): syntax error, unexpected 'return' (T_RETURN) in [C:\xampp\htdocs\myfriend\Controller\AppController.php, line 52]
+2013-05-08 13:02:17 Error: [FatalErrorException] syntax error, unexpected 'return' (T_RETURN)
+Request URL: /myfriend/users
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 52)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 52, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 52, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 13:03:54 Error: Fatal Error (4): syntax error, unexpected 'return' (T_RETURN) in [C:\xampp\htdocs\myfriend\Controller\AppController.php, line 50]
+2013-05-08 13:03:54 Error: [FatalErrorException] syntax error, unexpected 'return' (T_RETURN)
+Request URL: /myfriend/users
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 50)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 50, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 50, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 13:04:25 Error: [NotFoundException] Invalid user
+Request URL: /myfriend/users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Controller\Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-05-08 13:04:29 Error: [NotFoundException] Invalid user
+Request URL: /myfriend/users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Controller\Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-05-08 13:05:05 Error: [NotFoundException] Invalid user
+Request URL: /myfriend/users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Controller\Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-05-08 13:06:03 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\xampp\htdocs\myfriend\View\Pages\home.ctp, line 7]
+2013-05-08 13:06:03 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 7, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 7, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 13:06:21 Error: [MissingControllerException] Controller class Link3Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Link3Controller',
+  'plugin' => NULL,
+)
+Request URL: /myfriend/link3
+Stack Trace:
+#0 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-08 13:18:18 Error: Fatal Error (4): syntax error, unexpected '?>' in [C:\xampp\htdocs\myfriend\View\Users\edit.ctp, line 8]
+2013-05-08 13:18:18 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /myfriend/users/edit/110
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 8, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 8, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 13:18:26 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\myfriend\View\Users\edit.ctp, line 8]
+2013-05-08 13:18:26 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /myfriend/users/edit/110
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 8, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 8, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 13:21:48 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [C:\xampp\htdocs\myfriend\View\Users\edit.ctp, line 8]
+2013-05-08 13:21:48 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /myfriend/users/edit/110
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 8, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 8, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 13:42:39 Error: Fatal Error (4): syntax error, unexpected ')' in [C:\xampp\htdocs\myfriend\Controller\PagesController.php, line 74]
+2013-05-08 13:42:39 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 74)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 74, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 74, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 13:43:11 Error: Fatal Error (1): Call to a member function count() on a non-object in [C:\xampp\htdocs\myfriend\View\Pages\home.ctp, line 39]
+2013-05-08 13:43:11 Error: [FatalErrorException] Call to a member function count() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 13:43:37 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\myfriend\Controller\PagesController.php, line 74]
+2013-05-08 13:43:37 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 74)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 74, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 74, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 13:43:54 Error: Fatal Error (1): Call to a member function count() on a non-object in [C:\xampp\htdocs\myfriend\View\Pages\home.ctp, line 39]
+2013-05-08 13:43:54 Error: [FatalErrorException] Call to a member function count() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 13:48:09 Error: Fatal Error (1): Call to a member function count() on a non-object in [C:\xampp\htdocs\myfriend\View\Pages\home.ctp, line 39]
+2013-05-08 13:48:09 Error: [FatalErrorException] Call to a member function count() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 13:48:10 Error: Fatal Error (1): Call to a member function count() on a non-object in [C:\xampp\htdocs\myfriend\View\Pages\home.ctp, line 39]
+2013-05-08 13:48:10 Error: [FatalErrorException] Call to a member function count() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 13:48:40 Error: Fatal Error (1): Call to a member function count() on a non-object in [C:\xampp\htdocs\myfriend\View\Pages\home.ctp, line 39]
+2013-05-08 13:48:40 Error: [FatalErrorException] Call to a member function count() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 13:48:40 Error: Fatal Error (1): Call to a member function count() on a non-object in [C:\xampp\htdocs\myfriend\View\Pages\home.ctp, line 39]
+2013-05-08 13:48:40 Error: [FatalErrorException] Call to a member function count() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 13:48:41 Error: Fatal Error (1): Call to a member function count() on a non-object in [C:\xampp\htdocs\myfriend\View\Pages\home.ctp, line 39]
+2013-05-08 13:48:41 Error: [FatalErrorException] Call to a member function count() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 13:50:05 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\xampp\htdocs\myfriend\View\Pages\home.ctp, line 49]
+2013-05-08 13:50:05 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 49)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 49, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 49, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 13:50:14 Error: Fatal Error (1): Call to a member function count() on a non-object in [C:\xampp\htdocs\myfriend\View\Pages\home.ctp, line 39]
+2013-05-08 13:50:14 Error: [FatalErrorException] Call to a member function count() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 13:50:41 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\myfriend\Controller\PagesController.php, line 74]
+2013-05-08 13:50:41 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 74)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 74, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 74, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 13:51:32 Error: Fatal Error (1): Call to a member function count() on a non-object in [C:\xampp\htdocs\myfriend\View\Pages\home.ctp, line 23]
+2013-05-08 13:51:33 Error: [FatalErrorException] Call to a member function count() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 23, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 23, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 13:52:08 Error: Fatal Error (1): Call to a member function count() on a non-object in [C:\xampp\htdocs\myfriend\View\Pages\home.ctp, line 39]
+2013-05-08 13:52:08 Error: [FatalErrorException] Call to a member function count() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 13:52:48 Error: Fatal Error (1): Call to a member function count() on a non-object in [C:\xampp\htdocs\myfriend\View\Pages\home.ctp, line 40]
+2013-05-08 13:52:48 Error: [FatalErrorException] Call to a member function count() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 40)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 40, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 40, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 13:52:58 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\myfriend\Controller\PagesController.php, line 74]
+2013-05-08 13:52:58 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 74)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 74, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 74, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 13:54:11 Error: Fatal Error (1): Call to a member function count() on a non-object in [C:\xampp\htdocs\myfriend\View\Pages\home.ctp, line 39]
+2013-05-08 13:54:11 Error: [FatalErrorException] Call to a member function count() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 13:54:12 Error: Fatal Error (1): Call to a member function count() on a non-object in [C:\xampp\htdocs\myfriend\View\Pages\home.ctp, line 39]
+2013-05-08 13:54:12 Error: [FatalErrorException] Call to a member function count() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 13:54:31 Error: Fatal Error (1): Call to a member function count() on a non-object in [C:\xampp\htdocs\myfriend\View\Pages\home.ctp, line 39]
+2013-05-08 13:54:31 Error: [FatalErrorException] Call to a member function count() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 13:54:37 Error: Fatal Error (1): Call to a member function count() on a non-object in [C:\xampp\htdocs\myfriend\View\Pages\home.ctp, line 39]
+2013-05-08 13:54:37 Error: [FatalErrorException] Call to a member function count() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 13:55:03 Error: [MissingViewException] View file "C:\xampp\htdocs\myfriend\View\Pages\display.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\myfriend\\View\\Pages\\display.ctp',
+)
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Controller\Controller.php(948): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-05-08 13:55:16 Error: Fatal Error (1): Call to a member function count() on a non-object in [C:\xampp\htdocs\myfriend\View\Pages\home.ctp, line 39]
+2013-05-08 13:55:16 Error: [FatalErrorException] Call to a member function count() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 13:55:56 Error: Fatal Error (1): Call to a member function count() on a non-object in [C:\xampp\htdocs\myfriend\View\Pages\home.ctp, line 39]
+2013-05-08 13:55:56 Error: [FatalErrorException] Call to a member function count() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 13:55:57 Error: Fatal Error (1): Call to a member function count() on a non-object in [C:\xampp\htdocs\myfriend\View\Pages\home.ctp, line 39]
+2013-05-08 13:55:57 Error: [FatalErrorException] Call to a member function count() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 13:55:57 Error: Fatal Error (1): Call to a member function count() on a non-object in [C:\xampp\htdocs\myfriend\View\Pages\home.ctp, line 39]
+2013-05-08 13:55:57 Error: [FatalErrorException] Call to a member function count() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 13:55:57 Error: Fatal Error (1): Call to a member function count() on a non-object in [C:\xampp\htdocs\myfriend\View\Pages\home.ctp, line 39]
+2013-05-08 13:55:57 Error: [FatalErrorException] Call to a member function count() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 13:56:08 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\myfriend\Controller\PagesController.php, line 74]
+2013-05-08 13:56:08 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 74)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 74, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 74, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 13:59:25 Error: Fatal Error (1): Call to a member function count() on a non-object in [C:\xampp\htdocs\myfriend\View\Pages\home.ctp, line 39]
+2013-05-08 13:59:25 Error: [FatalErrorException] Call to a member function count() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 14:00:07 Error: Fatal Error (1): Call to a member function count() on a non-object in [C:\xampp\htdocs\myfriend\View\Pages\home.ctp, line 39]
+2013-05-08 14:00:07 Error: [FatalErrorException] Call to a member function count() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 14:00:15 Error: Fatal Error (1): Call to a member function findByUserId() on a non-object in [C:\xampp\htdocs\myfriend\Controller\PagesController.php, line 74]
+2013-05-08 14:00:15 Error: [FatalErrorException] Call to a member function findByUserId() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 74)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 74, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 74, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 14:01:15 Error: Fatal Error (1): Call to a member function count() on a non-object in [C:\xampp\htdocs\myfriend\View\Pages\home.ctp, line 39]
+2013-05-08 14:01:15 Error: [FatalErrorException] Call to a member function count() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 14:01:16 Error: Fatal Error (1): Call to a member function count() on a non-object in [C:\xampp\htdocs\myfriend\View\Pages\home.ctp, line 39]
+2013-05-08 14:01:16 Error: [FatalErrorException] Call to a member function count() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 14:04:03 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\myfriend\Controller\PagesController.php, line 74]
+2013-05-08 14:04:03 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 74)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 74, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 74, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 14:05:27 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\myfriend\Controller\PagesController.php, line 76]
+2013-05-08 14:05:27 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 76)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 76, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 76, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 14:06:07 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\myfriend\Controller\PagesController.php, line 76]
+2013-05-08 14:06:07 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 76)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 76, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 76, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 14:06:09 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\myfriend\Controller\PagesController.php, line 76]
+2013-05-08 14:06:09 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 76)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 76, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 76, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 14:06:15 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\myfriend\Controller\PagesController.php, line 76]
+2013-05-08 14:06:15 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 76)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 76, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 76, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 14:07:44 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\myfriend\Controller\PagesController.php, line 56]
+2013-05-08 14:07:44 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 56)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 56, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 56, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 14:07:51 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [C:\xampp\htdocs\myfriend\Controller\PagesController.php, line 56]
+2013-05-08 14:07:51 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 56)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 56, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 56, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 14:07:52 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [C:\xampp\htdocs\myfriend\Controller\PagesController.php, line 56]
+2013-05-08 14:07:52 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 56)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 56, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 56, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 14:08:06 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\myfriend\Controller\PagesController.php, line 77]
+2013-05-08 14:08:06 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 77)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 77, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 77, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 14:08:55 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\myfriend\Controller\PagesController.php, line 73]
+2013-05-08 14:08:55 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 73)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 73, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 73, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 14:09:11 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\myfriend\Controller\PagesController.php, line 73]
+2013-05-08 14:09:11 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 73)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 73, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 73, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 14:11:12 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\myfriend\Controller\PagesController.php, line 74]
+2013-05-08 14:11:12 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 74)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 74, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 74, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 14:11:37 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [C:\xampp\htdocs\myfriend\Controller\PagesController.php, line 75]
+2013-05-08 14:11:37 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 75)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 75, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 75, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 14:17:26 Error: Fatal Error (1): Call to a member function count() on a non-object in [C:\xampp\htdocs\myfriend\View\Pages\home.ctp, line 39]
+2013-05-08 14:17:26 Error: [FatalErrorException] Call to a member function count() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 14:18:05 Error: Fatal Error (1): Call to a member function count() on a non-object in [C:\xampp\htdocs\myfriend\View\Pages\home.ctp, line 39]
+2013-05-08 14:18:05 Error: [FatalErrorException] Call to a member function count() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 14:18:06 Error: Fatal Error (1): Call to a member function count() on a non-object in [C:\xampp\htdocs\myfriend\View\Pages\home.ctp, line 39]
+2013-05-08 14:18:06 Error: [FatalErrorException] Call to a member function count() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 14:18:06 Error: Fatal Error (1): Call to a member function count() on a non-object in [C:\xampp\htdocs\myfriend\View\Pages\home.ctp, line 39]
+2013-05-08 14:18:06 Error: [FatalErrorException] Call to a member function count() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 14:18:07 Error: Fatal Error (1): Call to a member function count() on a non-object in [C:\xampp\htdocs\myfriend\View\Pages\home.ctp, line 39]
+2013-05-08 14:18:07 Error: [FatalErrorException] Call to a member function count() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 14:18:07 Error: Fatal Error (1): Call to a member function count() on a non-object in [C:\xampp\htdocs\myfriend\View\Pages\home.ctp, line 39]
+2013-05-08 14:18:07 Error: [FatalErrorException] Call to a member function count() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 14:30:15 Error: [MissingControllerException] Controller class PageController could not be found.
+Exception Attributes: array (
+  'class' => 'PageController',
+  'plugin' => NULL,
+)
+Request URL: /myfriend/page/display
+Stack Trace:
+#0 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-08 14:30:22 Error: [MissingViewException] View file "C:\xampp\htdocs\myfriend\View\Pages\display.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\myfriend\\View\\Pages\\display.ctp',
+)
+Request URL: /myfriend/pages/display
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\View\View.php(468): View->_getViewFileName('display')
+#1 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Controller\Controller.php(948): View->render('display', NULL)
+#2 C:\xampp\htdocs\myfriend\Controller\PagesController.php(72): Controller->render('display')
+#3 [internal function]: PagesController->display('display')
+#4 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Controller\Controller.php(486): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2013-05-08 14:33:59 Error: Fatal Error (1): Call to a member function count() on a non-object in [C:\xampp\htdocs\myfriend\View\Pages\home.ctp, line 39]
+2013-05-08 14:33:59 Error: [FatalErrorException] Call to a member function count() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 14:34:33 Error: Fatal Error (1): Call to a member function count() on a non-object in [C:\xampp\htdocs\myfriend\View\Pages\home.ctp, line 39]
+2013-05-08 14:34:33 Error: [FatalErrorException] Call to a member function count() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 14:35:14 Error: Fatal Error (1): Call to a member function count() on a non-object in [C:\xampp\htdocs\myfriend\View\Pages\home.ctp, line 39]
+2013-05-08 14:35:14 Error: [FatalErrorException] Call to a member function count() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 14:42:43 Error: Fatal Error (4): syntax error, unexpected 'define' (T_STRING), expecting function (T_FUNCTION) in [C:\xampp\htdocs\myfriend\View\Helper\AppHelper.php, line 36]
+2013-05-08 14:42:43 Error: [FatalErrorException] syntax error, unexpected 'define' (T_STRING), expecting function (T_FUNCTION)
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 36)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 36, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 36, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 14:44:17 Error: Fatal Error (4): syntax error, unexpected 'define' (T_STRING), expecting function (T_FUNCTION) in [C:\xampp\htdocs\myfriend\View\Helper\AppHelper.php, line 36]
+2013-05-08 14:44:17 Error: [FatalErrorException] syntax error, unexpected 'define' (T_STRING), expecting function (T_FUNCTION)
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 36)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 36, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 36, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 14:46:30 Error: Fatal Error (4): syntax error, unexpected 'define' (T_STRING), expecting function (T_FUNCTION) in [C:\xampp\htdocs\myfriend\View\Helper\AppHelper.php, line 36]
+2013-05-08 14:46:30 Error: [FatalErrorException] syntax error, unexpected 'define' (T_STRING), expecting function (T_FUNCTION)
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 36)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 36, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 36, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 14:46:58 Error: Fatal Error (4): syntax error, unexpected '$current_user' (T_VARIABLE), expecting '(' in [C:\xampp\htdocs\myfriend\View\Pages\home.ctp, line 50]
+2013-05-08 14:46:58 Error: [FatalErrorException] syntax error, unexpected '$current_user' (T_VARIABLE), expecting '('
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 50)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 50, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 50, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 14:47:25 Error: Fatal Error (4): syntax error, unexpected '$current_user' (T_VARIABLE), expecting '(' in [C:\xampp\htdocs\myfriend\View\Pages\home.ctp, line 50]
+2013-05-08 14:47:25 Error: [FatalErrorException] syntax error, unexpected '$current_user' (T_VARIABLE), expecting '('
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 50)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 50, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 50, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 14:55:16 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO) in [C:\xampp\htdocs\myfriend\View\Pages\home.ctp, line 50]
+2013-05-08 14:55:16 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO)
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 50)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 50, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 50, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 15:01:04 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\myfriend\Controller\PagesController.php, line 61]
+2013-05-08 15:01:05 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 61)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 61, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 61, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 15:10:23 Error: Fatal Error (1): Call to a member function getFollowedIDs() on a non-object in [C:\xampp\htdocs\myfriend\Controller\PagesController.php, line 61]
+2013-05-08 15:10:23 Error: [FatalErrorException] Call to a member function getFollowedIDs() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 61)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 61, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 61, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 15:58:25 Error: [MissingActionException] Action UsersController::2() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => '2',
+)
+Request URL: /myfriend/users/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-05-08 15:58:31 Error: [MissingActionException] Action UsersController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'view',
+)
+Request URL: /myfriend/users/view/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-05-08 16:59:34 Error: Fatal Error (4): syntax error, unexpected '$current_user' (T_VARIABLE), expecting '(' in [C:\xampp\htdocs\myfriend\View\Users\view.ctp, line 32]
+2013-05-08 16:59:34 Error: [FatalErrorException] syntax error, unexpected '$current_user' (T_VARIABLE), expecting '('
+Request URL: /myfriend/users/view/5
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 32)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 32, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 32, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 16:59:38 Error: Fatal Error (4): syntax error, unexpected '$current_user' (T_VARIABLE), expecting '(' in [C:\xampp\htdocs\myfriend\View\Users\view.ctp, line 32]
+2013-05-08 16:59:38 Error: [FatalErrorException] syntax error, unexpected '$current_user' (T_VARIABLE), expecting '('
+Request URL: /myfriend/users/view/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 32)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 32, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 32, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 17:04:44 Error: Fatal Error (4): syntax error, unexpected '?>' in [C:\xampp\htdocs\myfriend\View\Users\view.ctp, line 32]
+2013-05-08 17:04:44 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /myfriend/users/view/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 32)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 32, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 32, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 17:04:55 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\xampp\htdocs\myfriend\View\Users\view.ctp, line 34]
+2013-05-08 17:04:55 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /myfriend/users/view/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 34, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 34, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 17:07:11 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\xampp\htdocs\myfriend\View\Users\view.ctp, line 34]
+2013-05-08 17:07:11 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /myfriend/users/view/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 34, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 34, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 17:07:13 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\xampp\htdocs\myfriend\View\Users\view.ctp, line 34]
+2013-05-08 17:07:13 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /myfriend/users/view/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 34, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 34, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 17:09:13 Error: Fatal Error (4): syntax error, unexpected 'else' (T_ELSE) in [C:\xampp\htdocs\myfriend\View\Users\view.ctp, line 36]
+2013-05-08 17:09:13 Error: [FatalErrorException] syntax error, unexpected 'else' (T_ELSE)
+Request URL: /myfriend/users/view/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 36)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 36, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 36, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 17:09:35 Error: Fatal Error (1): Call to a member function following() on a non-object in [C:\xampp\htdocs\myfriend\View\Users\view.ctp, line 32]
+2013-05-08 17:09:35 Error: [FatalErrorException] Call to a member function following() on a non-object
+Request URL: /myfriend/users/view/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 32, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 32, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 17:09:54 Error: Fatal Error (1): Call to a member function following() on a non-object in [C:\xampp\htdocs\myfriend\View\Users\view.ctp, line 33]
+2013-05-08 17:09:54 Error: [FatalErrorException] Call to a member function following() on a non-object
+Request URL: /myfriend/users/view/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 33)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 33, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 33, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 17:15:51 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [C:\xampp\htdocs\myfriend\View\Users\view.ctp, line 35]
+2013-05-08 17:15:51 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /myfriend/users/view/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 17:20:17 Error: Fatal Error (4): syntax error, unexpected ')' in [C:\xampp\htdocs\myfriend\View\Users\view.ctp, line 33]
+2013-05-08 17:20:17 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /myfriend/users/view/4
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 33)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 33, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 33, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 17:20:26 Error: Fatal Error (1): Call to undefined method HelperCollection::test() in [C:\xampp\htdocs\myfriend\View\Users\view.ctp, line 30]
+2013-05-08 17:20:26 Error: [FatalErrorException] Call to undefined method HelperCollection::test()
+Request URL: /myfriend/users/view/4
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\xampp\htdocs...', 30)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\xampp\htdocs...', 30, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\xampp\htdocs...', 30, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 17:20:27 Error: Fatal Error (1): Call to undefined method HelperCollection::test() in [C:\xampp\htdocs\myfriend\View\Users\view.ctp, line 30]
+2013-05-08 17:20:27 Error: [FatalErrorException] Call to undefined method HelperCollection::test()
+Request URL: /myfriend/users/view/4
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\xampp\htdocs...', 30)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\xampp\htdocs...', 30, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\xampp\htdocs...', 30, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 17:22:35 Error: Fatal Error (4): syntax error, unexpected 'define' (T_STRING), expecting function (T_FUNCTION) in [C:\xampp\htdocs\myfriend\View\Helper\AppHelper.php, line 36]
+2013-05-08 17:22:35 Error: [FatalErrorException] syntax error, unexpected 'define' (T_STRING), expecting function (T_FUNCTION)
+Request URL: /myfriend/users/view/4
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 36)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 36, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 36, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 17:24:35 Error: Fatal Error (4): syntax error, unexpected 'define' (T_STRING), expecting function (T_FUNCTION) in [C:\xampp\htdocs\myfriend\View\Helper\AppHelper.php, line 35]
+2013-05-08 17:24:35 Error: [FatalErrorException] syntax error, unexpected 'define' (T_STRING), expecting function (T_FUNCTION)
+Request URL: /myfriend/users/view/4
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 17:38:07 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [C:\xampp\htdocs\myfriend\View\Users\view.ctp, line 32]
+2013-05-08 17:38:07 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /myfriend/users/view/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 32)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 32, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 32, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 17:38:17 Error: Fatal Error (1): Call to a member function findById() on a non-object in [C:\xampp\htdocs\myfriend\View\Helper\AppHelper.php, line 38]
+2013-05-08 17:38:17 Error: [FatalErrorException] Call to a member function findById() on a non-object
+Request URL: /myfriend/users/view/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 38)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 38, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 38, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 17:38:43 Error: Fatal Error (1): Call to a member function findById() on a non-object in [C:\xampp\htdocs\myfriend\View\Helper\AppHelper.php, line 39]
+2013-05-08 17:38:43 Error: [FatalErrorException] Call to a member function findById() on a non-object
+Request URL: /myfriend/users/view/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 17:39:04 Error: Fatal Error (1): Call to a member function findById() on a non-object in [C:\xampp\htdocs\myfriend\View\Helper\AppHelper.php, line 39]
+2013-05-08 17:39:04 Error: [FatalErrorException] Call to a member function findById() on a non-object
+Request URL: /myfriend/users/view/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 17:39:05 Error: Fatal Error (1): Call to a member function findById() on a non-object in [C:\xampp\htdocs\myfriend\View\Helper\AppHelper.php, line 39]
+2013-05-08 17:39:05 Error: [FatalErrorException] Call to a member function findById() on a non-object
+Request URL: /myfriend/users/view/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 17:39:05 Error: Fatal Error (1): Call to a member function findById() on a non-object in [C:\xampp\htdocs\myfriend\View\Helper\AppHelper.php, line 39]
+2013-05-08 17:39:05 Error: [FatalErrorException] Call to a member function findById() on a non-object
+Request URL: /myfriend/users/view/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 17:39:06 Error: Fatal Error (1): Call to a member function findById() on a non-object in [C:\xampp\htdocs\myfriend\View\Helper\AppHelper.php, line 39]
+2013-05-08 17:39:06 Error: [FatalErrorException] Call to a member function findById() on a non-object
+Request URL: /myfriend/users/view/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 17:39:17 Error: Fatal Error (1): Call to a member function User() on a non-object in [C:\xampp\htdocs\myfriend\View\Helper\AppHelper.php, line 39]
+2013-05-08 17:39:17 Error: [FatalErrorException] Call to a member function User() on a non-object
+Request URL: /myfriend/users/view/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 17:39:18 Error: Fatal Error (1): Call to a member function User() on a non-object in [C:\xampp\htdocs\myfriend\View\Helper\AppHelper.php, line 39]
+2013-05-08 17:39:18 Error: [FatalErrorException] Call to a member function User() on a non-object
+Request URL: /myfriend/users/view/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 39, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 17:47:00 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [C:\xampp\htdocs\myfriend\Controller\PagesController.php, line 57]
+2013-05-08 17:47:00 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 57)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 57, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 57, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 17:47:13 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [C:\xampp\htdocs\myfriend\Controller\PagesController.php, line 57]
+2013-05-08 17:47:13 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 57)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 57, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 57, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 17:48:08 Error: [MissingActionException] Action UsersController::1() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => '1',
+)
+Request URL: /myfriend/users/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-05-08 17:53:52 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO) in [C:\xampp\htdocs\myfriend\View\Helper\AppHelper.php, line 44]
+2013-05-08 17:53:52 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO)
+Request URL: /myfriend/users/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 44)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 44, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 44, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 17:54:37 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\myfriend\View\Helper\AppHelper.php, line 43]
+2013-05-08 17:54:37 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /myfriend/users/view/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 43)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 43, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 43, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 17:58:51 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\xampp\htdocs\myfriend\View\Helper\AppHelper.php, line 41]
+2013-05-08 17:58:51 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /myfriend/users/view/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 41, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 41, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 18:03:40 Error: Fatal Error (4): syntax error, unexpected '}', expecting ',' or ';' in [C:\xampp\htdocs\myfriend\View\Users\view.ctp, line 38]
+2013-05-08 18:03:40 Error: [FatalErrorException] syntax error, unexpected '}', expecting ',' or ';'
+Request URL: /myfriend/users/view/5
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 38)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 38, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 38, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 18:23:19 Error: [MissingActionException] Action UsersController::relationship() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'relationship',
+)
+Request URL: /myfriend/users/relationship/delete
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-05-08 18:26:04 Error: [MissingActionException] Action UsersController::relationship() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'relationship',
+)
+Request URL: /myfriend/users/relationship/delete
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-05-08 18:26:17 Error: [MissingActionException] Action UsersController::relationship() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'relationship',
+)
+Request URL: /myfriend/users/relationship/delete
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-05-08 18:28:44 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in [C:\xampp\htdocs\myfriend\View\Layouts\my_layout.ctp, line 16]
+2013-05-08 18:28:44 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';'
+Request URL: /myfriend/users/view/5
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 16, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 16, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 18:39:24 Error: [MissingHelperException] Helper class AjaxHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AjaxHelper',
+  'plugin' => false,
+)
+Request URL: /myfriend/users/view/5
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\View\View.php(884): HelperCollection->load('Ajax', Array)
+#1 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\View\View.php(464): View->loadHelpers()
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Controller\Controller.php(948): View->render(NULL, NULL)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#4 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2013-05-08 18:53:08 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [C:\xampp\htdocs\myfriend\Model\Relationship.php, line 51]
+2013-05-08 18:53:08 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /myfriend/users/view/5
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 51)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 51, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 51, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 18:53:25 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\myfriend\Model\Relationship.php, line 51]
+2013-05-08 18:53:25 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /myfriend/users/view/5
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 51)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 51, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 51, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 18:53:27 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\myfriend\Model\Relationship.php, line 51]
+2013-05-08 18:53:27 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /myfriend/users/view/5
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 51)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 51, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 51, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 19:00:02 Error: [MissingControllerException] Controller class RelationshipsController could not be found.
+Exception Attributes: array (
+  'class' => 'RelationshipsController',
+  'plugin' => NULL,
+)
+Request URL: /myfriend/relationships/unfollow
+Stack Trace:
+#0 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-08 19:01:00 Error: [MissingControllerException] Controller class RelationshipsController could not be found.
+Exception Attributes: array (
+  'class' => 'RelationshipsController',
+  'plugin' => NULL,
+)
+Request URL: /myfriend/relationships/unfollow
+Stack Trace:
+#0 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-08 19:01:16 Error: Fatal Error (1): Call to a member function delete() on a non-object in [C:\xampp\htdocs\myfriend\Controller\UsersController.php, line 147]
+2013-05-08 19:01:16 Error: [FatalErrorException] Call to a member function delete() on a non-object
+Request URL: /myfriend/users/unfollow
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 147)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 147, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 147, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 19:05:54 Error: Fatal Error (1): Call to a member function delete() on a non-object in [C:\xampp\htdocs\myfriend\Controller\UsersController.php, line 147]
+2013-05-08 19:05:54 Error: [FatalErrorException] Call to a member function delete() on a non-object
+Request URL: /myfriend/users/unfollow
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 147)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 147, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 147, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 19:15:58 Error: [MissingActionException] Action UsersController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'users',
+)
+Request URL: /myfriend/users/users/unfollow
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-05-08 19:45:31 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\myfriend\Controller\UsersController.php, line 158]
+2013-05-08 19:45:31 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /myfriend/users/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 158)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 158, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 158, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 19:57:22 Error: [MissingControllerException] Controller class Link3Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Link3Controller',
+  'plugin' => NULL,
+)
+Request URL: /myfriend/link3
+Stack Trace:
+#0 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-08 19:57:59 Error: [MissingControllerException] Controller class Link3Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Link3Controller',
+  'plugin' => NULL,
+)
+Request URL: /myfriend/link3
+Stack Trace:
+#0 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-08 19:58:13 Error: [MissingControllerException] Controller class Link3Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Link3Controller',
+  'plugin' => NULL,
+)
+Request URL: /myfriend/link3
+Stack Trace:
+#0 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-08 19:58:13 Error: [MissingControllerException] Controller class Link3Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Link3Controller',
+  'plugin' => NULL,
+)
+Request URL: /myfriend/link3
+Stack Trace:
+#0 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-08 19:58:15 Error: [MissingControllerException] Controller class Link3Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Link3Controller',
+  'plugin' => NULL,
+)
+Request URL: /myfriend/link3
+Stack Trace:
+#0 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-08 20:06:36 Error: Fatal Error (4): syntax error, unexpected '?>' in [C:\xampp\htdocs\myfriend\View\Users\index.ctp, line 11]
+2013-05-08 20:06:36 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /myfriend/users/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 11, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 11, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 20:06:50 Error: Fatal Error (4): syntax error, unexpected '$current_user' (T_VARIABLE), expecting '(' in [C:\xampp\htdocs\myfriend\View\Users\index.ctp, line 12]
+2013-05-08 20:06:50 Error: [FatalErrorException] syntax error, unexpected '$current_user' (T_VARIABLE), expecting '('
+Request URL: /myfriend/users/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 12, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 12, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 20:07:05 Error: Fatal Error (4): syntax error, unexpected '?>' in [C:\xampp\htdocs\myfriend\View\Users\index.ctp, line 13]
+2013-05-08 20:07:05 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /myfriend/users/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 13, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 13, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 20:08:51 Error: [MissingActionException] Action UsersController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'users',
+)
+Request URL: /myfriend/users/users/delete/6
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-05-08 20:09:24 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /myfriend/users/delete/6
+Stack Trace:
+#0 C:\xampp\htdocs\myfriend\Controller\UsersController.php(114): CakeRequest->onlyAllow('post', 'delete')
+#1 [internal function]: UsersController->delete('6')
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Controller\Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2013-05-08 20:10:03 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /myfriend/users/delete/6
+Stack Trace:
+#0 C:\xampp\htdocs\myfriend\Controller\UsersController.php(114): CakeRequest->onlyAllow('post', 'delete')
+#1 [internal function]: UsersController->delete('6')
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Controller\Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2013-05-08 20:10:05 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /myfriend/users/delete/6
+Stack Trace:
+#0 C:\xampp\htdocs\myfriend\Controller\UsersController.php(114): CakeRequest->onlyAllow('post', 'delete')
+#1 [internal function]: UsersController->delete('6')
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Controller\Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2013-05-08 20:10:36 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /myfriend/users/delete/6
+Stack Trace:
+#0 C:\xampp\htdocs\myfriend\Controller\UsersController.php(114): CakeRequest->onlyAllow('post', 'delete')
+#1 [internal function]: UsersController->delete('6')
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Controller\Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2013-05-08 20:10:57 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /myfriend/microposts/delete/295
+Stack Trace:
+#0 C:\xampp\htdocs\myfriend\Controller\MicropostsController.php(93): CakeRequest->onlyAllow('post', 'delete')
+#1 [internal function]: MicropostsController->delete('295')
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Controller\Controller.php(486): ReflectionMethod->invokeArgs(Object(MicropostsController), Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(MicropostsController), Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2013-05-08 20:18:35 Error: Fatal Error (4): syntax error, unexpected '?>' in [C:\xampp\htdocs\myfriend\View\Users\index.ctp, line 11]
+2013-05-08 20:18:35 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /myfriend/users
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 11, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 11, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 20:25:36 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /myfriend/microposts/delete/295
+Stack Trace:
+#0 C:\xampp\htdocs\myfriend\Controller\MicropostsController.php(93): CakeRequest->onlyAllow('post', 'delete')
+#1 [internal function]: MicropostsController->delete('295')
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Controller\Controller.php(486): ReflectionMethod->invokeArgs(Object(MicropostsController), Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(MicropostsController), Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2013-05-08 20:29:28 Error: [MissingControllerException] Controller class PageController could not be found.
+Exception Attributes: array (
+  'class' => 'PageController',
+  'plugin' => NULL,
+)
+Request URL: /myfriend/page/home
+Stack Trace:
+#0 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-08 20:29:43 Error: [MissingControllerException] Controller class PageController could not be found.
+Exception Attributes: array (
+  'class' => 'PageController',
+  'plugin' => NULL,
+)
+Request URL: /myfriend/page/home
+Stack Trace:
+#0 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-08 20:29:55 Error: [MissingControllerException] Controller class PageController could not be found.
+Exception Attributes: array (
+  'class' => 'PageController',
+  'plugin' => NULL,
+)
+Request URL: /myfriend/page/home
+Stack Trace:
+#0 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-08 20:30:00 Error: [NotFoundException] Invalid micropost
+Request URL: /myfriend/microposts/delete/277
+Stack Trace:
+#0 [internal function]: MicropostsController->delete('277')
+#1 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Controller\Controller.php(486): ReflectionMethod->invokeArgs(Object(MicropostsController), Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(MicropostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-05-08 20:44:33 Error: Fatal Error (4): syntax error, unexpected '?>' in [C:\xampp\htdocs\myfriend\View\Pages\home.ctp, line 41]
+2013-05-08 20:44:33 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 41, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 41, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 21:01:20 Error: Fatal Error (1): Call to a member function paginate() on a non-object in [C:\xampp\htdocs\myfriend\Controller\PagesController.php, line 60]
+2013-05-08 21:01:20 Error: [FatalErrorException] Call to a member function paginate() on a non-object
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 60)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 60, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 60, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 21:16:53 Error: [MissingControllerException] Controller class FollowingController could not be found.
+Exception Attributes: array (
+  'class' => 'FollowingController',
+  'plugin' => NULL,
+)
+Request URL: /myfriend/following/1
+Stack Trace:
+#0 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-08 21:17:11 Error: [MissingControllerException] Controller class FollowingController could not be found.
+Exception Attributes: array (
+  'class' => 'FollowingController',
+  'plugin' => NULL,
+)
+Request URL: /myfriend/following/1
+Stack Trace:
+#0 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-08 21:17:13 Error: [MissingControllerException] Controller class FollowingController could not be found.
+Exception Attributes: array (
+  'class' => 'FollowingController',
+  'plugin' => NULL,
+)
+Request URL: /myfriend/following/1
+Stack Trace:
+#0 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-08 21:17:16 Error: [MissingControllerException] Controller class FollowerController could not be found.
+Exception Attributes: array (
+  'class' => 'FollowerController',
+  'plugin' => NULL,
+)
+Request URL: /myfriend/follower/1
+Stack Trace:
+#0 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-08 21:17:19 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\myfriend\Controller\UsersController.php, line 168]
+2013-05-08 21:17:19 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /myfriend/users/follower/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 168)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 168, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 168, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 21:17:46 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [C:\xampp\htdocs\myfriend\Controller\UsersController.php, line 169]
+2013-05-08 21:17:46 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /myfriend/users/follower/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 169)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 169, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 169, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 21:17:54 Error: Fatal Error (4): syntax error, unexpected '@' in [C:\xampp\htdocs\myfriend\Controller\UsersController.php, line 177]
+2013-05-08 21:17:54 Error: [FatalErrorException] syntax error, unexpected '@'
+Request URL: /myfriend/users/follower/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 177)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 177, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 177, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 21:18:03 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [C:\xampp\htdocs\myfriend\Controller\UsersController.php, line 180]
+2013-05-08 21:18:03 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /myfriend/users/follower/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 180)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 180, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 180, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 21:18:15 Error: [MissingActionException] Action UsersController::follower() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'follower',
+)
+Request URL: /myfriend/users/follower/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\myfriend\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-05-08 21:18:21 Error: Fatal Error (1): Call to a member function paginate() on a non-object in [C:\xampp\htdocs\myfriend\Controller\UsersController.php, line 170]
+2013-05-08 21:18:21 Error: [FatalErrorException] Call to a member function paginate() on a non-object
+Request URL: /myfriend/users/following/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 170)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 170, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 170, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 21:18:32 Error: Fatal Error (4): syntax error, unexpected '?>' in [C:\xampp\htdocs\myfriend\View\Users\following.ctp, line 6]
+2013-05-08 21:18:32 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /myfriend/users/following/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 6, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 6, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 21:18:56 Error: Fatal Error (4): syntax error, unexpected '?>' in [C:\xampp\htdocs\myfriend\View\Users\following.ctp, line 6]
+2013-05-08 21:18:56 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /myfriend/users/following/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 6, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 6, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 21:19:18 Error: Fatal Error (1): Call to undefined function Gravatar_for_user() in [C:\xampp\htdocs\myfriend\View\Users\following.ctp, line 4]
+2013-05-08 21:19:18 Error: [FatalErrorException] Call to undefined function Gravatar_for_user()
+Request URL: /myfriend/users/following/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\xampp\htdocs...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\xampp\htdocs...', 4, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\xampp\htdocs...', 4, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 21:19:28 Error: Fatal Error (1): Cannot use object of type User as array in [C:\xampp\htdocs\myfriend\View\Helper\AppHelper.php, line 48]
+2013-05-08 21:19:28 Error: [FatalErrorException] Cannot use object of type User as array
+Request URL: /myfriend/users/following/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot use obje...', 'C:\xampp\htdocs...', 48)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', 'C:\xampp\htdocs...', 48, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', 'C:\xampp\htdocs...', 48, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 21:19:58 Error: Fatal Error (1): Cannot use object of type User as array in [C:\xampp\htdocs\myfriend\View\Users\following.ctp, line 4]
+2013-05-08 21:19:58 Error: [FatalErrorException] Cannot use object of type User as array
+Request URL: /myfriend/users/following/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot use obje...', 'C:\xampp\htdocs...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', 'C:\xampp\htdocs...', 4, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', 'C:\xampp\htdocs...', 4, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 21:19:59 Error: Fatal Error (1): Cannot use object of type User as array in [C:\xampp\htdocs\myfriend\View\Users\following.ctp, line 4]
+2013-05-08 21:19:59 Error: [FatalErrorException] Cannot use object of type User as array
+Request URL: /myfriend/users/following/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot use obje...', 'C:\xampp\htdocs...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', 'C:\xampp\htdocs...', 4, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', 'C:\xampp\htdocs...', 4, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 21:20:57 Error: Fatal Error (1): Cannot use object of type User as array in [C:\xampp\htdocs\myfriend\View\Users\following.ctp, line 3]
+2013-05-08 21:20:57 Error: [FatalErrorException] Cannot use object of type User as array
+Request URL: /myfriend/users/following/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot use obje...', 'C:\xampp\htdocs...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', 'C:\xampp\htdocs...', 3, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', 'C:\xampp\htdocs...', 3, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 21:22:23 Error: Fatal Error (1): Cannot use object of type User as array in [C:\xampp\htdocs\myfriend\View\Helper\AppHelper.php, line 48]
+2013-05-08 21:22:23 Error: [FatalErrorException] Cannot use object of type User as array
+Request URL: /myfriend/users/following/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot use obje...', 'C:\xampp\htdocs...', 48)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', 'C:\xampp\htdocs...', 48, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', 'C:\xampp\htdocs...', 48, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 21:22:40 Error: Fatal Error (1): Cannot use object of type User as array in [C:\xampp\htdocs\myfriend\View\Users\following.ctp, line 4]
+2013-05-08 21:22:41 Error: [FatalErrorException] Cannot use object of type User as array
+Request URL: /myfriend/users/following/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot use obje...', 'C:\xampp\htdocs...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', 'C:\xampp\htdocs...', 4, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', 'C:\xampp\htdocs...', 4, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 21:23:51 Error: Fatal Error (1): Cannot use object of type User as array in [C:\xampp\htdocs\myfriend\View\Helper\AppHelper.php, line 48]
+2013-05-08 21:23:51 Error: [FatalErrorException] Cannot use object of type User as array
+Request URL: /myfriend/users/following/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot use obje...', 'C:\xampp\htdocs...', 48)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', 'C:\xampp\htdocs...', 48, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', 'C:\xampp\htdocs...', 48, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 21:23:52 Error: Fatal Error (1): Cannot use object of type User as array in [C:\xampp\htdocs\myfriend\View\Helper\AppHelper.php, line 48]
+2013-05-08 21:23:52 Error: [FatalErrorException] Cannot use object of type User as array
+Request URL: /myfriend/users/following/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot use obje...', 'C:\xampp\htdocs...', 48)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', 'C:\xampp\htdocs...', 48, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', 'C:\xampp\htdocs...', 48, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 21:25:00 Error: Fatal Error (1): Cannot use object of type User as array in [C:\xampp\htdocs\myfriend\View\Users\following.ctp, line 5]
+2013-05-08 21:25:00 Error: [FatalErrorException] Cannot use object of type User as array
+Request URL: /myfriend/users/following/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot use obje...', 'C:\xampp\htdocs...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', 'C:\xampp\htdocs...', 5, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', 'C:\xampp\htdocs...', 5, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 21:25:01 Error: Fatal Error (1): Cannot use object of type User as array in [C:\xampp\htdocs\myfriend\View\Users\following.ctp, line 5]
+2013-05-08 21:25:01 Error: [FatalErrorException] Cannot use object of type User as array
+Request URL: /myfriend/users/following/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot use obje...', 'C:\xampp\htdocs...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', 'C:\xampp\htdocs...', 5, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', 'C:\xampp\htdocs...', 5, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 21:26:22 Error: Fatal Error (1): Cannot use object of type User as array in [C:\xampp\htdocs\myfriend\View\Helper\AppHelper.php, line 48]
+2013-05-08 21:26:22 Error: [FatalErrorException] Cannot use object of type User as array
+Request URL: /myfriend/users/following/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot use obje...', 'C:\xampp\htdocs...', 48)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', 'C:\xampp\htdocs...', 48, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', 'C:\xampp\htdocs...', 48, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 21:27:02 Error: Fatal Error (1): Cannot use object of type User as array in [C:\xampp\htdocs\myfriend\View\Helper\AppHelper.php, line 48]
+2013-05-08 21:27:02 Error: [FatalErrorException] Cannot use object of type User as array
+Request URL: /myfriend/users/following/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot use obje...', 'C:\xampp\htdocs...', 48)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', 'C:\xampp\htdocs...', 48, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', 'C:\xampp\htdocs...', 48, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 21:33:49 Error: Fatal Error (4): syntax error, unexpected '?>' in [C:\xampp\htdocs\myfriend\View\Users\following.ctp, line 26]
+2013-05-08 21:33:49 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /myfriend/users/following/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 26)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 26, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

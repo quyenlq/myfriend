@@ -32,6 +32,23 @@ App::uses('Controller', 'Controller');
  * @link		http://book.cakephp.org/2.0/en/controllers.html#the-app-controller
  */
 class AppController extends Controller {
-    public $helpers = array('BootstrapCake.Bootstrap'); 
+    public $helpers = array('BootstrapCake.Bootstrap',"App"); 
     var $layout = "my_layout";
+    public $current_user;
+    public $components = array(
+        'Session',
+        'Auth' => array(
+            'loginRedirect' => array('controller' => 'users', 'action' => 'index'),
+            'logoutRedirect' => array('controller' => 'users', 'action' => 'index', 'home'),
+        )
+    );
+
+    public function beforeFilter(){
+        $this->loadModel('User');
+        $this->loadModel('Micropost');
+        $this->loadModel('Relationship');
+        $current_user=$this->Auth->User();
+        $current_user= $this->User->findById($current_user['id']);
+    	$this->set('current_user', $current_user);
+    }
 }

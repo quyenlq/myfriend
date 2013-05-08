@@ -12,18 +12,20 @@
 
     	<?php
     		//Load Bootstrap:  
+    		echo $this->Html->script('jquery.js');
     		echo $this->Bootstrap->load(); 
 
 
 			echo $this->fetch('meta');
 			echo $this->fetch('css');
 			echo $this->fetch('script');
+			echo $this->Html->css('custom.css')
     	?>
 
 	</head>
-	<body style="margin-top: 60px">
+	<body>
 
-	    <div class="navbar navbar-fixed-top">
+	    <div class="navbar navbar-fixed-top ">
 	      <div class="navbar-inner">
 	        <div class="container">
 	          <a class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse">
@@ -31,12 +33,25 @@
 	            <span class="icon-bar"></span>
 	            <span class="icon-bar"></span>
 	          </a>
-	          <?php echo $this->Html->link('Nice2MeetU', '/', array('class' => 'brand')); ?>
-	          <div class="container nav-collapse">
-	            <ul class="nav">
-	            	<li><?php echo $this->Html->link('Link1', '/link1'); ?></li>
-	                <li><?php echo $this->Html->link('Link2', '/link2'); ?></li>
-	                <li><?php echo $this->Html->link('Link3', '/link3'); ?></li>
+	          <?php echo $this->Html->link('MyFriends', '/', array('class' => 'brand', 'id' => 'logo')); ?>
+	          <div class="container nav-collapse ">
+	            <ul class="nav pull-right">
+	            	<?php if(!$current_user) { ?>
+		            	<li><?php echo $this->Html->link('Sign in', '/users/login'); ?></li>
+		            	<li class="divider-vertical"></li>
+		                <li><?php echo $this->Html->link('Sign up', '/users/add'); ?></li>
+		                <li class="divider-vertical"></li>
+		            <?php
+	                	}
+	                	else
+	                	{
+	            	?>
+						<li><?php echo $this->Html->link('My Profile', '/users/edit/'.$current_user["User"]['id']); ?></li>
+						<li class="divider-vertical"></li>
+						<li><?php echo $this->Html->link('Logout', '/users/logout/'); ?></li>
+						<li class="divider-vertical"></li>
+	            	<?php } ?>
+	                <li><?php echo $this->Html->link('Find Friends', '/users/index'); ?></li>
 	            </ul>
 	          </div><!--/.nav-collapse -->
 	        </div>
@@ -45,31 +60,15 @@
 
 	    <div class="container">
 	      <div class="content">
-	        <div class="row">
-	            <div class="span3">
-	              <div class="well sidebar-nav">
-	                <h3>Sidebar</h3>
-	                <ul class="nav nav-list">
-	                  <li class="nav-header">Sidebar</li>
-	                  <li><?php echo $this->Html->link('Link1', '/link1'); ?></li>
-	                  <li><?php echo $this->Html->link('Link2', '/link2'); ?></li>
-	                  <li><?php echo $this->Html->link('Link3', '/link3'); ?></li>
-	                </ul>
-	              </div><!--/.well -->
-	            </div><!--/span-->
-
-	           	<div id="main-content" class="span9">
-
+	           	<div id="main-content">
 					<?php echo $this->Session->flash(); ?>
 
 					<?php echo $this->fetch('content'); ?>
 
 	            </div><!--/span-->
-
-	        </div><!--/row-->
 	      </div><!--/content-->
 
-	      <footer>
+	      <footer style="text-align: center;">
 	        <p>&copy; Nice2MeetU <?php echo date('Y'); ?></p>
 	      </footer>
 
