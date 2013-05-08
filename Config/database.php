@@ -1,7 +1,7 @@
 <?php
 class DATABASE_CONFIG {
 
-	public $myfriend = array(
+	public $default = array(
 		'datasource' => 'Database/Mysql',
 		'persistent' => true,
 		'host' => 'localhost',

@@ -1,0 +1,10 @@
+2013-05-07 18:50:31 Error: Fatal Error (4): syntax error, unexpected 'Friend' (T_STRING) in [C:\xampp\htdocs\myfriend\Controller\PagesController.php, line 61]
+2013-05-07 18:50:31 Error: [FatalErrorException] syntax error, unexpected 'Friend' (T_STRING)
+Request URL: /myfriend/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 61)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 61, Array)
+#2 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 61, Array)
+#3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

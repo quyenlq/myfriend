@@ -26,8 +26,10 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 	<title>
 		<?php echo $cakeDescription ?>:
 		<?php echo $title_for_layout; ?>
+                
 	</title>
 	<?php
+                echo $this->Bootstrap->load();
 		echo $this->Html->meta('icon');
 
 		echo $this->Html->css('cake.generic');
@@ -36,6 +38,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 		echo $this->fetch('css');
 		echo $this->fetch('script');
 	?>
+    
 </head>
 <body>
 	<div id="container">
