@@ -1,4 +1,4 @@
-<?php if(!$current_user["User"]){ ?>
+<?php if(!$current_user){ ?>
 <div class="hero-unit">
 	<h2> Welcome to Nice2MeetU </h2>
 	<a href="users/login" class="btn btn-primary btn-large">Sign in</a>
@@ -21,13 +21,13 @@ else{?>
 			<div class="stats">
 				<a href="<?php echo 'users/following/'.$current_user['User']['id'] ;?>">
 					<strong id="following" class="stat">
-						<?php echo count($user["follower"]); ?>
+						<?php echo count($followed_users); ?>
 					</strong>
 					following
 				</a>
 				<a href="<?php echo 'users/follower/'.$current_user['User']['id']; ?>">
 					<strong id="followers" class="stat">
-						<?php echo count($user["followed"]); ?>
+						<?php echo count($followers); ?>
 					</strong>
 					followers
 				</a>
@@ -36,17 +36,18 @@ else{?>
 		</section>
 	</aside>
 	<div class="span8">
-		<?php if (count($microposts) >0){ ?>
+		
 		<h3>Microposts (<?php echo count($microposts);  ?>)</h3>
 		<?php echo $this->Form->create('Micropost',array('action' => 'add', 'inputDefaults' => array('label' => false), 'class' => 'form my-form'))?>
-		<div class="field">
-			<?php echo $this->Form->input('content', array('type'=>'textarea', 'placeholder' => "Compose new micropost...", 'rows' => '3', 'class' =>'span8'))?>
-			<?php echo $this->Form->hidden('user_id', array('value' => $current_user["User"]['id']))?>
-		</div>
-		<div class="field">
-			<?php echo $this->Form->submit("Post", array("class" => "btn submit btn-primary pull-right")) ?>
-		</div>
+	  	<div class="field">
+    	<?php echo $this->Form->input('content', array('type'=>'textarea', 'placeholder' => "Compose new micropost...", 'rows' => '3', 'class' =>'span8'))?>
+    	<?php echo $this->Form->hidden('user_id', array('value' => $current_user["User"]['id']))?>
+  		</div>
+  		<div class="field">
+  			<?php echo $this->Form->submit("Post", array("class" => "btn submit btn-primary pull-right")) ?>
+  		</div>
 		<?php echo $this->Form->end()?>
+		<?php if (count($microposts) >0){ ?>
 		<ol class="microposts">
 			<?php foreach ($microposts as $m) {
 				?>
@@ -54,20 +55,20 @@ else{?>
 					<span class="content"><?php echo $m['Micropost']['content'] ?></span>
 					<span class="timestamp" >
 						Posted <?php echo $m['Micropost']['created'] ?>
-						
-						<?php 
+					
+					<?php 
 						if ($current_user["User"]['id']==$m['Micropost']['user_id']){
 							echo $this->Html->link(
-								'Delete',
-								array('controller' => 'microposts', 'action' => 'delete', $m["Micropost"]['id']),
-								array(),
-								"Are you sure you wish to delete this post?"
-								);
+					'Delete',
+					array('controller' => 'microposts', 'action' => 'delete', $m["Micropost"]['id']),
+					array(),
+					"Are you sure you wish to delete this post?"
+					);
 						}
-						?>
+					?>
 					</span>
 				</li>
-				<?php 
+			<?php 
 			}
 			?>
 			

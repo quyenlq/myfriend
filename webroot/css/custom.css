@@ -8,7 +8,7 @@ html {
 
 body {
   padding-top: 60px;
-  background-color: #eee;  
+  background-color: #eee; 
 }
 
 
@@ -32,6 +32,8 @@ textarea {
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1;
+  font-family: 'Caesar Dressing', cursive;
+
 }
 
 h1 {
@@ -59,7 +61,8 @@ p {
 /* header */
 
 #logo {
-  color: #999;
+  font-family: 'Caesar Dressing', cursive;
+  color: #08c;
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
@@ -72,7 +75,7 @@ p {
 
 
 #logo:hover {
-  color: #08c;
+  color: #999;
   text-decoration: none;
 }
 /* footer */

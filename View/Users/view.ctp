@@ -11,13 +11,13 @@
 			</section>
 			<section>
 				<div class="stats">
-					<a href="<?php echo '#' ;?>">
+					<a href="<?php echo '../../users/following/'.$user['User']['id'] ;?>">
 						<strong id="following" class="stat">
 							<?php echo count($followed_users); ?>
 						</strong>
 						following
 					</a>
-					<a href="<?php echo '#'; ?>">
+					<a href="<?php echo '../../users/following/'.$user['User']['id'] ;?>">
 						<strong id="followers" class="stat">
 							<?php echo count($followers); ?>
 						</strong>

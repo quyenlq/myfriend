@@ -44,9 +44,16 @@ class AppHelper extends Helper {
 		return false;
 	}
 
-	public function Gravatar_for_user($user, $size=50){
-	    $gravatar_id = md5($user["User"]["email"]);
-    	$gravatar_url = "https://secure.gravatar.com/avatar/".$gravatar_id."?s=".$size;
-	    echo "<img src=".$gravatar_url." class='gravatar'>";
+	public function Gravatar_for_user($user, $size=50, $isArray=false){
+		if(!$isArray){
+		    $gravatar_id = md5($user["User"]["email"]);
+	    	$gravatar_url = "https://secure.gravatar.com/avatar/".$gravatar_id."?s=".$size;
+		    echo "<img src=".$gravatar_url." class='gravatar'>";
+	    }
+	    else{
+	    	$gravatar_id = md5($user["email"]);
+	    	$gravatar_url = "https://secure.gravatar.com/avatar/".$gravatar_id."?s=".$size;
+		    echo "<img src=".$gravatar_url." class='gravatar'>";
+	    }
 	}
 }

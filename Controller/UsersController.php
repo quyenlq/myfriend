@@ -46,6 +46,8 @@ public function view( $id = null){
 	}
 	$user=$this->User->findById($id);
 	$this->set('user', $user);
+	$followed_users=$user["followed"];
+	$followers=$user["follower"];
 	$this->set('microposts', $this->Micropost->find('all',array(
 		'conditions' => array('Micropost.user_id' => $user["User"]["id"]),
 		'order' => array('Micropost.created DESC')
@@ -165,15 +167,28 @@ public function following($id){
 	$title = "Following";
 	$this->User->id = $id;
 	$user = $this->User->findById($id);
-	$users = $this->User->find('all');
+	$users = $user['followed'];
 	$this->set('users', $users);	
 	$this->set('user', $user);
 }
 
-public function followers(){
-    // $title = "Followers"
-    // @user = User.find(params[:id])
-    // @users = @user.followers.paginate(page: params[:page])
-    // render 'show_follow'
+public function follower($id){
+    $title = "Following";
+	$this->User->id = $id;
+	$user = $this->User->findById($id);
+	$users = $user['follower'];
+	$this->set('users', $users);	
+	$this->set('user', $user);
 }
+
+
+public function search(){
+	$keyword = $this->request->data['User']['keyword'];
+	$this->set('keyword',$keyword);
+	$this->set('users',$this->User->find('all',array(
+        'conditions' => array('User.name LIKE ' =>"%".$keyword."%", 'User.email LIKE ' =>"%".$keyword."%"),
+        'order' => array('User.name DESC'),
+      )));
+}
+
 }

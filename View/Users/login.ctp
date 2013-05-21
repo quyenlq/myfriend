@@ -1,13 +1,12 @@
-<div class="form">
-<?php echo $this->Form->create('User'); ?>
-    <fieldset>
-        <legend><?php echo __('Please enter your username and password'); ?></legend>
+<div class="row">
+    <div class="span6 offset3">
+        <h1>Sign in <small><?php echo ('Please enter your username and password'); ?></small></h1>
+        <?php echo $this->Form->create('User'); ?>
         <?php 
-        echo $this->Session->flash('auth');
     	echo $this->Form->create('User',array('action'=>'login'));
-    	echo $this->Form->input('email',array('type' => 'text'));
-    	echo $this->Form->input('password');
-    	echo $this->Form->submit('Login',array('class' => 'btn btn-primary'));
+    	echo $this->Form->input('email',array('type' => 'text', 'class' => 'span6'));
+    	echo $this->Form->input('password', array('class'=>'span6'));
+    	echo $this->Form->submit('Login',array('class' => 'btn btn-primary btn-large'));
     	?>
-    </fieldset>
+</div>
 </div>

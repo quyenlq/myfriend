@@ -2,7 +2,7 @@
 <div id="page-container" class="row-fluid">	
 	<div id="page-content" class="span8 offset2">
 		<div class="users form">		
-				<h2><?php echo __('Add User'); ?></h2>
+				<h1><?php echo __('Add User'); ?></h1>
 				<?php echo $this->Form->create('User', array('inputDefaults' => array('label' => false), 'class' => 'form form-horizontal')); ?>
 				<div class="control-group">
 					<?php echo $this->Form->label('name', 'Name', array('class' => 'control-label'));?>
