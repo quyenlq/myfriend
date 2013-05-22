@@ -2565,3 +2565,413 @@ Stack Trace:
 #3 C:\xampp\htdocs\cakephp-2.3.4\lib\Cake\Core\App.php(899): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2013-05-22 21:46:14 Error: Fatal Error (4): syntax error, unexpected '[' in [/opt/lampp/htdocs/myfriend2/Controller/UsersController.php, line 143]
+2013-05-22 21:46:14 Error: [FatalErrorException] syntax error, unexpected '['
+Request URL: /myfriend2/users/login
+Stack Trace:
+#0 /usr/share/php/cakephp-2.3.4/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 143)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 143, Array)
+#2 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 143, Array)
+#3 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-22 21:46:14 Error: Fatal Error (4): syntax error, unexpected '[' in [/opt/lampp/htdocs/myfriend2/Controller/UsersController.php, line 143]
+2013-05-22 21:46:14 Error: [FatalErrorException] syntax error, unexpected '['
+Request URL: /myfriend2/users/login
+Stack Trace:
+#0 /usr/share/php/cakephp-2.3.4/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 143)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 143, Array)
+#2 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 143, Array)
+#3 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-22 21:46:16 Error: Fatal Error (4): syntax error, unexpected '[' in [/opt/lampp/htdocs/myfriend2/Controller/UsersController.php, line 143]
+2013-05-22 21:46:16 Error: [FatalErrorException] syntax error, unexpected '['
+Request URL: /myfriend2/users/login
+Stack Trace:
+#0 /usr/share/php/cakephp-2.3.4/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 143)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 143, Array)
+#2 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 143, Array)
+#3 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-22 21:47:07 Error: Fatal Error (4): syntax error, unexpected '[' in [/opt/lampp/htdocs/myfriend2/Controller/UsersController.php, line 143]
+2013-05-22 21:47:07 Error: [FatalErrorException] syntax error, unexpected '['
+Request URL: /myfriend2/users/login
+Stack Trace:
+#0 /usr/share/php/cakephp-2.3.4/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 143)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 143, Array)
+#2 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 143, Array)
+#3 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-22 21:47:07 Error: Fatal Error (4): syntax error, unexpected '[' in [/opt/lampp/htdocs/myfriend2/Controller/UsersController.php, line 143]
+2013-05-22 21:47:07 Error: [FatalErrorException] syntax error, unexpected '['
+Request URL: /myfriend2/users/login
+Stack Trace:
+#0 /usr/share/php/cakephp-2.3.4/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 143)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 143, Array)
+#2 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 143, Array)
+#3 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-22 21:47:31 Error: Fatal Error (4): syntax error, unexpected '[' in [/opt/lampp/htdocs/myfriend2/Controller/UsersController.php, line 143]
+2013-05-22 21:47:31 Error: [FatalErrorException] syntax error, unexpected '['
+Request URL: /myfriend2/users/login
+Stack Trace:
+#0 /usr/share/php/cakephp-2.3.4/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 143)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 143, Array)
+#2 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 143, Array)
+#3 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-22 21:47:41 Error: Fatal Error (4): syntax error, unexpected '[' in [/opt/lampp/htdocs/myfriend2/Controller/UsersController.php, line 143]
+2013-05-22 21:47:41 Error: [FatalErrorException] syntax error, unexpected '['
+Request URL: /myfriend2/users/login
+Stack Trace:
+#0 /usr/share/php/cakephp-2.3.4/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 143)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 143, Array)
+#2 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 143, Array)
+#3 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-22 21:49:14 Error: Fatal Error (4): syntax error, unexpected '[' in [/opt/lampp/htdocs/myfriend2/Controller/UsersController.php, line 143]
+2013-05-22 21:49:14 Error: [FatalErrorException] syntax error, unexpected '['
+Request URL: /myfriend2/users/login
+Stack Trace:
+#0 /usr/share/php/cakephp-2.3.4/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 143)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 143, Array)
+#2 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 143, Array)
+#3 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-22 21:49:15 Error: Fatal Error (4): syntax error, unexpected '[' in [/opt/lampp/htdocs/myfriend2/Controller/UsersController.php, line 143]
+2013-05-22 21:49:15 Error: [FatalErrorException] syntax error, unexpected '['
+Request URL: /myfriend2/users/login
+Stack Trace:
+#0 /usr/share/php/cakephp-2.3.4/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 143)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 143, Array)
+#2 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 143, Array)
+#3 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-22 21:49:16 Error: Fatal Error (4): syntax error, unexpected '[' in [/opt/lampp/htdocs/myfriend2/Controller/UsersController.php, line 143]
+2013-05-22 21:49:16 Error: [FatalErrorException] syntax error, unexpected '['
+Request URL: /myfriend2/users/login
+Stack Trace:
+#0 /usr/share/php/cakephp-2.3.4/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 143)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 143, Array)
+#2 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 143, Array)
+#3 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-22 21:50:16 Error: Fatal Error (4): syntax error, unexpected '[' in [/opt/lampp/htdocs/myfriend2/Controller/UsersController.php, line 143]
+2013-05-22 21:50:16 Error: [FatalErrorException] syntax error, unexpected '['
+Request URL: /myfriend2/users/login
+Stack Trace:
+#0 /usr/share/php/cakephp-2.3.4/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 143)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 143, Array)
+#2 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 143, Array)
+#3 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-22 21:50:16 Error: Fatal Error (4): syntax error, unexpected '[' in [/opt/lampp/htdocs/myfriend2/Controller/UsersController.php, line 143]
+2013-05-22 21:50:16 Error: [FatalErrorException] syntax error, unexpected '['
+Request URL: /myfriend2/users/login
+Stack Trace:
+#0 /usr/share/php/cakephp-2.3.4/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 143)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 143, Array)
+#2 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 143, Array)
+#3 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-22 21:53:30 Error: Fatal Error (4): syntax error, unexpected '[' in [/opt/lampp/htdocs/myfriend2/Controller/UsersController.php, line 133]
+2013-05-22 21:53:30 Error: [FatalErrorException] syntax error, unexpected '['
+Request URL: /myfriend2/users/login
+Stack Trace:
+#0 /usr/share/php/cakephp-2.3.4/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 133)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 133, Array)
+#2 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 133, Array)
+#3 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-22 21:53:31 Error: Fatal Error (4): syntax error, unexpected '[' in [/opt/lampp/htdocs/myfriend2/Controller/UsersController.php, line 133]
+2013-05-22 21:53:31 Error: [FatalErrorException] syntax error, unexpected '['
+Request URL: /myfriend2/users/login
+Stack Trace:
+#0 /usr/share/php/cakephp-2.3.4/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 133)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 133, Array)
+#2 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 133, Array)
+#3 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-22 21:53:31 Error: Fatal Error (4): syntax error, unexpected '[' in [/opt/lampp/htdocs/myfriend2/Controller/UsersController.php, line 133]
+2013-05-22 21:53:31 Error: [FatalErrorException] syntax error, unexpected '['
+Request URL: /myfriend2/users/login
+Stack Trace:
+#0 /usr/share/php/cakephp-2.3.4/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 133)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 133, Array)
+#2 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 133, Array)
+#3 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-22 21:53:31 Error: Fatal Error (4): syntax error, unexpected '[' in [/opt/lampp/htdocs/myfriend2/Controller/UsersController.php, line 133]
+2013-05-22 21:53:31 Error: [FatalErrorException] syntax error, unexpected '['
+Request URL: /myfriend2/users/login
+Stack Trace:
+#0 /usr/share/php/cakephp-2.3.4/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 133)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 133, Array)
+#2 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 133, Array)
+#3 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-22 22:47:01 Error: Fatal Error (1): Cannot unset string offsets in [/usr/share/php/cakephp-2.3.4/lib/Cake/View/Helper/HtmlHelper.php, line 356]
+2013-05-22 22:47:01 Error: [FatalErrorException] Cannot unset string offsets
+Request URL: /myfriend2/users/follower/102
+Stack Trace:
+#0 /usr/share/php/cakephp-2.3.4/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot unset st...', '/usr/share/php/...', 356)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', '/usr/share/php/...', 356, Array)
+#2 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', '/usr/share/php/...', 356, Array)
+#3 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-22 22:47:17 Error: Fatal Error (1): Cannot unset string offsets in [/usr/share/php/cakephp-2.3.4/lib/Cake/View/Helper/HtmlHelper.php, line 356]
+2013-05-22 22:47:17 Error: [FatalErrorException] Cannot unset string offsets
+Request URL: /myfriend2/users/following/3
+Stack Trace:
+#0 /usr/share/php/cakephp-2.3.4/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot unset st...', '/usr/share/php/...', 356)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', '/usr/share/php/...', 356, Array)
+#2 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', '/usr/share/php/...', 356, Array)
+#3 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-22 22:47:19 Error: Fatal Error (1): Cannot unset string offsets in [/usr/share/php/cakephp-2.3.4/lib/Cake/View/Helper/HtmlHelper.php, line 356]
+2013-05-22 22:47:19 Error: [FatalErrorException] Cannot unset string offsets
+Request URL: /myfriend2/users/following/3
+Stack Trace:
+#0 /usr/share/php/cakephp-2.3.4/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot unset st...', '/usr/share/php/...', 356)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', '/usr/share/php/...', 356, Array)
+#2 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', '/usr/share/php/...', 356, Array)
+#3 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-22 22:47:32 Error: Fatal Error (1): Cannot unset string offsets in [/usr/share/php/cakephp-2.3.4/lib/Cake/View/Helper/HtmlHelper.php, line 356]
+2013-05-22 22:47:32 Error: [FatalErrorException] Cannot unset string offsets
+Request URL: /myfriend2/users/following/3
+Stack Trace:
+#0 /usr/share/php/cakephp-2.3.4/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot unset st...', '/usr/share/php/...', 356)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', '/usr/share/php/...', 356, Array)
+#2 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', '/usr/share/php/...', 356, Array)
+#3 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-22 22:51:18 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE in [/opt/lampp/htdocs/myfriend2/Controller/UsersController.php, line 143]
+2013-05-22 22:51:18 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE
+Request URL: /myfriend2/users/view/3
+Stack Trace:
+#0 /usr/share/php/cakephp-2.3.4/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 143)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 143, Array)
+#2 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 143, Array)
+#3 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-22 22:53:35 Error: Fatal Error (4): syntax error, unexpected '[' in [/opt/lampp/htdocs/myfriend2/Controller/UsersController.php, line 48]
+2013-05-22 22:53:35 Error: [FatalErrorException] syntax error, unexpected '['
+Request URL: /myfriend2/users/view/3
+Stack Trace:
+#0 /usr/share/php/cakephp-2.3.4/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 48)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 48, Array)
+#2 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 48, Array)
+#3 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-22 22:53:44 Error: Fatal Error (4): syntax error, unexpected '[' in [/opt/lampp/htdocs/myfriend2/Controller/UsersController.php, line 48]
+2013-05-22 22:53:44 Error: [FatalErrorException] syntax error, unexpected '['
+Request URL: /myfriend2/users/view/3
+Stack Trace:
+#0 /usr/share/php/cakephp-2.3.4/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 48)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 48, Array)
+#2 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 48, Array)
+#3 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-22 22:54:51 Error: Fatal Error (4): syntax error, unexpected '[' in [/opt/lampp/htdocs/myfriend2/Controller/UsersController.php, line 142]
+2013-05-22 22:54:51 Error: [FatalErrorException] syntax error, unexpected '['
+Request URL: /myfriend2/users/view/3
+Stack Trace:
+#0 /usr/share/php/cakephp-2.3.4/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 142)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 142, Array)
+#2 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 142, Array)
+#3 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-22 22:55:09 Error: Fatal Error (1): Cannot unset string offsets in [/usr/share/php/cakephp-2.3.4/lib/Cake/View/Helper/HtmlHelper.php, line 356]
+2013-05-22 22:55:09 Error: [FatalErrorException] Cannot unset string offsets
+Request URL: /myfriend2/users/following/102
+Stack Trace:
+#0 /usr/share/php/cakephp-2.3.4/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot unset st...', '/usr/share/php/...', 356)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', '/usr/share/php/...', 356, Array)
+#2 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', '/usr/share/php/...', 356, Array)
+#3 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-22 22:55:34 Error: Fatal Error (1): Cannot unset string offsets in [/usr/share/php/cakephp-2.3.4/lib/Cake/View/Helper/HtmlHelper.php, line 356]
+2013-05-22 22:55:34 Error: [FatalErrorException] Cannot unset string offsets
+Request URL: /myfriend2/users/following/102
+Stack Trace:
+#0 /usr/share/php/cakephp-2.3.4/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot unset st...', '/usr/share/php/...', 356)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', '/usr/share/php/...', 356, Array)
+#2 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', '/usr/share/php/...', 356, Array)
+#3 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-22 22:56:00 Error: Fatal Error (1): Cannot unset string offsets in [/usr/share/php/cakephp-2.3.4/lib/Cake/View/Helper/HtmlHelper.php, line 356]
+2013-05-22 22:56:00 Error: [FatalErrorException] Cannot unset string offsets
+Request URL: /myfriend2/users/following/102
+Stack Trace:
+#0 /usr/share/php/cakephp-2.3.4/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot unset st...', '/usr/share/php/...', 356)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', '/usr/share/php/...', 356, Array)
+#2 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', '/usr/share/php/...', 356, Array)
+#3 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-22 22:56:10 Error: Fatal Error (1): Cannot unset string offsets in [/usr/share/php/cakephp-2.3.4/lib/Cake/View/Helper/HtmlHelper.php, line 356]
+2013-05-22 22:56:10 Error: [FatalErrorException] Cannot unset string offsets
+Request URL: /myfriend2/users/following/102
+Stack Trace:
+#0 /usr/share/php/cakephp-2.3.4/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot unset st...', '/usr/share/php/...', 356)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', '/usr/share/php/...', 356, Array)
+#2 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', '/usr/share/php/...', 356, Array)
+#3 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-22 22:56:24 Error: Fatal Error (1): Cannot unset string offsets in [/usr/share/php/cakephp-2.3.4/lib/Cake/View/Helper/HtmlHelper.php, line 356]
+2013-05-22 22:56:24 Error: [FatalErrorException] Cannot unset string offsets
+Request URL: /myfriend2/users/following/102
+Stack Trace:
+#0 /usr/share/php/cakephp-2.3.4/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot unset st...', '/usr/share/php/...', 356)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', '/usr/share/php/...', 356, Array)
+#2 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', '/usr/share/php/...', 356, Array)
+#3 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-22 22:56:39 Error: Fatal Error (1): Cannot unset string offsets in [/usr/share/php/cakephp-2.3.4/lib/Cake/View/Helper/HtmlHelper.php, line 356]
+2013-05-22 22:56:39 Error: [FatalErrorException] Cannot unset string offsets
+Request URL: /myfriend2/users/following/102
+Stack Trace:
+#0 /usr/share/php/cakephp-2.3.4/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot unset st...', '/usr/share/php/...', 356)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', '/usr/share/php/...', 356, Array)
+#2 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', '/usr/share/php/...', 356, Array)
+#3 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-22 22:56:43 Error: Fatal Error (1): Cannot unset string offsets in [/usr/share/php/cakephp-2.3.4/lib/Cake/View/Helper/HtmlHelper.php, line 356]
+2013-05-22 22:56:43 Error: [FatalErrorException] Cannot unset string offsets
+Request URL: /myfriend2/users/following/102
+Stack Trace:
+#0 /usr/share/php/cakephp-2.3.4/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot unset st...', '/usr/share/php/...', 356)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', '/usr/share/php/...', 356, Array)
+#2 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', '/usr/share/php/...', 356, Array)
+#3 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-22 22:56:48 Error: Fatal Error (1): Cannot unset string offsets in [/usr/share/php/cakephp-2.3.4/lib/Cake/View/Helper/HtmlHelper.php, line 356]
+2013-05-22 22:56:48 Error: [FatalErrorException] Cannot unset string offsets
+Request URL: /myfriend2/users/following/102
+Stack Trace:
+#0 /usr/share/php/cakephp-2.3.4/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot unset st...', '/usr/share/php/...', 356)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', '/usr/share/php/...', 356, Array)
+#2 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', '/usr/share/php/...', 356, Array)
+#3 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-22 22:57:26 Error: Fatal Error (1): Cannot unset string offsets in [/usr/share/php/cakephp-2.3.4/lib/Cake/View/Helper/HtmlHelper.php, line 356]
+2013-05-22 22:57:26 Error: [FatalErrorException] Cannot unset string offsets
+Request URL: /myfriend2/users/following/102
+Stack Trace:
+#0 /usr/share/php/cakephp-2.3.4/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot unset st...', '/usr/share/php/...', 356)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', '/usr/share/php/...', 356, Array)
+#2 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', '/usr/share/php/...', 356, Array)
+#3 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-22 22:58:15 Error: Fatal Error (1): Cannot unset string offsets in [/usr/share/php/cakephp-2.3.4/lib/Cake/View/Helper/HtmlHelper.php, line 356]
+2013-05-22 22:58:15 Error: [FatalErrorException] Cannot unset string offsets
+Request URL: /myfriend2/users/following/102
+Stack Trace:
+#0 /usr/share/php/cakephp-2.3.4/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot unset st...', '/usr/share/php/...', 356)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', '/usr/share/php/...', 356, Array)
+#2 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', '/usr/share/php/...', 356, Array)
+#3 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-22 23:00:11 Error: Fatal Error (1): Cannot unset string offsets in [/usr/share/php/cakephp-2.3.4/lib/Cake/View/Helper/HtmlHelper.php, line 356]
+2013-05-22 23:00:11 Error: [FatalErrorException] Cannot unset string offsets
+Request URL: /myfriend2/users/following/102
+Stack Trace:
+#0 /usr/share/php/cakephp-2.3.4/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot unset st...', '/usr/share/php/...', 356)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', '/usr/share/php/...', 356, Array)
+#2 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', '/usr/share/php/...', 356, Array)
+#3 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-22 23:01:09 Error: Fatal Error (1): Cannot unset string offsets in [/usr/share/php/cakephp-2.3.4/lib/Cake/View/Helper/HtmlHelper.php, line 356]
+2013-05-22 23:01:09 Error: [FatalErrorException] Cannot unset string offsets
+Request URL: /myfriend2/users/following/102
+Stack Trace:
+#0 /usr/share/php/cakephp-2.3.4/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot unset st...', '/usr/share/php/...', 356)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', '/usr/share/php/...', 356, Array)
+#2 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', '/usr/share/php/...', 356, Array)
+#3 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-22 23:04:43 Error: Fatal Error (1): Cannot unset string offsets in [/usr/share/php/cakephp-2.3.4/lib/Cake/View/Helper/HtmlHelper.php, line 356]
+2013-05-22 23:04:43 Error: [FatalErrorException] Cannot unset string offsets
+Request URL: /myfriend2/users/follower/102
+Stack Trace:
+#0 /usr/share/php/cakephp-2.3.4/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot unset st...', '/usr/share/php/...', 356)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', '/usr/share/php/...', 356, Array)
+#2 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', '/usr/share/php/...', 356, Array)
+#3 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-22 23:04:46 Error: Fatal Error (1): Cannot unset string offsets in [/usr/share/php/cakephp-2.3.4/lib/Cake/View/Helper/HtmlHelper.php, line 356]
+2013-05-22 23:04:46 Error: [FatalErrorException] Cannot unset string offsets
+Request URL: /myfriend2/users/following/102
+Stack Trace:
+#0 /usr/share/php/cakephp-2.3.4/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot unset st...', '/usr/share/php/...', 356)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', '/usr/share/php/...', 356, Array)
+#2 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', '/usr/share/php/...', 356, Array)
+#3 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-22 23:05:07 Error: Fatal Error (1): Cannot unset string offsets in [/usr/share/php/cakephp-2.3.4/lib/Cake/View/Helper/HtmlHelper.php, line 356]
+2013-05-22 23:05:07 Error: [FatalErrorException] Cannot unset string offsets
+Request URL: /myfriend2/users/following/102
+Stack Trace:
+#0 /usr/share/php/cakephp-2.3.4/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot unset st...', '/usr/share/php/...', 356)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', '/usr/share/php/...', 356, Array)
+#2 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', '/usr/share/php/...', 356, Array)
+#3 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-22 23:05:11 Error: Fatal Error (1): Cannot unset string offsets in [/usr/share/php/cakephp-2.3.4/lib/Cake/View/Helper/HtmlHelper.php, line 356]
+2013-05-22 23:05:11 Error: [FatalErrorException] Cannot unset string offsets
+Request URL: /myfriend2/users/following/102
+Stack Trace:
+#0 /usr/share/php/cakephp-2.3.4/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot unset st...', '/usr/share/php/...', 356)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', '/usr/share/php/...', 356, Array)
+#2 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', '/usr/share/php/...', 356, Array)
+#3 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-22 23:05:26 Error: Fatal Error (1): Cannot unset string offsets in [/usr/share/php/cakephp-2.3.4/lib/Cake/View/Helper/HtmlHelper.php, line 356]
+2013-05-22 23:05:26 Error: [FatalErrorException] Cannot unset string offsets
+Request URL: /myfriend2/users/following/102
+Stack Trace:
+#0 /usr/share/php/cakephp-2.3.4/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot unset st...', '/usr/share/php/...', 356)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', '/usr/share/php/...', 356, Array)
+#2 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', '/usr/share/php/...', 356, Array)
+#3 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

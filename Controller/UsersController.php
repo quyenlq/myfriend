@@ -110,7 +110,6 @@ public function delete($id = null) {
 	if (!$this->User->exists()) {
 		throw new NotFoundException(__('Invalid user'));
 	}
-	// $this->request->onlyAllow('post', 'delete');
 	if ($this->User->delete()) {
 		$this->Session->setFlash(__('User deleted'), 'flash/success');
 		$this->redirect(array('action' => 'index'));
@@ -140,7 +139,8 @@ public function logout() {
 
 public function unfollow(){
 	$this->autoRender = false;
-	$cuid = $this->Auth->User()['id'];
+	$temp = $this->Auth->User();
+	$cuid = $temp['id'];
 	$id=$this->request->data['Relationships']['followed_id'];
 
 	$rel = $this->Relationship->find('first', array('conditions' => array('Relationship.followed_id' => $cuid, 'Relationship.follower_id' => $id)));
@@ -152,7 +152,8 @@ public function unfollow(){
 
 public function follow(){
 	$this->autoRender = false;
-	$cuid = $this->Auth->User()['id'];
+	$temp = $this->Auth->User();
+	$cuid = $temp['id'];
 	$id=$this->request->data['Relationships']['followed_id'];
 
 	$this->request->data['followed_id']=$cuid;

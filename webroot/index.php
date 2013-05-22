@@ -62,7 +62,8 @@ if (!defined('APP_DIR')) {
  * The following line differs from its sibling
  * /app/webroot/index.php
  */
-define('CAKE_CORE_INCLUDE_PATH', 'C:' . DS . 'xampp' . DS . 'htdocs' . DS . 'cakephp-2.3.4' . DS . 'lib');
+
+define('CAKE_CORE_INCLUDE_PATH',  DS . 'usr' . DS . 'share' . DS . 'php' . DS . 'cakephp-2.3.4' . DS . 'lib');
 
 /**
  * Editing below this line should NOT be necessary.
