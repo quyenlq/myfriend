@@ -55,7 +55,7 @@ public function display() {
 	$current_user = $this->Auth->User();
 	$current_user = $this->User->findById($current_user['id']);
 	$this->set('microposts', $this->Micropost->find('all',array(
-		'conditions' => array('Micropost.user_id' => $current_user["User"]['id']),
+		'conditions' => array('Micropost.wall_id' => $current_user["User"]['id']),
 		'order' => array('Micropost.created DESC')
 		)));
 	$followed_users=$current_user["followed"];

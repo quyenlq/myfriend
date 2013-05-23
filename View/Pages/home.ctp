@@ -42,6 +42,7 @@ else{?>
 	  	<div class="field">
     	<?php echo $this->Form->input('content', array('type'=>'textarea', 'placeholder' => "Compose new micropost...", 'rows' => '3', 'class' =>'span8'))?>
     	<?php echo $this->Form->hidden('user_id', array('value' => $current_user["User"]['id']))?>
+    	<?php echo $this->Form->hidden('wall_id', array('value' => $current_user["User"]['id']))?>
   		</div>
   		<div class="field">
   			<?php echo $this->Form->submit("Post", array("class" => "btn submit btn-primary pull-right")) ?>
@@ -52,12 +53,14 @@ else{?>
 			<?php foreach ($microposts as $m) {
 				?>
 				<li>
+					<?php $this->App->Gravatar_for_user($m,32) ?>
+					<span class="owner"><?php echo $this->Html->link($m["User"]["name"], array('controller' => 'users', 'action' => 'view', $m["User"]["id"]))?></span>
 					<span class="content"><?php echo $m['Micropost']['content'] ?></span>
 					<span class="timestamp" >
 						Posted <?php echo $m['Micropost']['created'] ?>
 					
 					<?php 
-						if ($current_user["User"]['id']==$m['Micropost']['user_id']){
+						if ($current_user["User"]['id']==$m['Micropost']['user_id'] || $current_user["User"]['id']==$m['Micropost']['wall_id']){
 							echo $this->Html->link(
 					'Delete',
 					array('controller' => 'microposts', 'action' => 'delete', $m["Micropost"]['id']),

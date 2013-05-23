@@ -33,7 +33,7 @@
     </section>
   </aside>
   <div class="span8">
-    <h3><?php echo "Following users" ?></h3>
+    <h3><?php echo "Followed users" ?></h3>
     <?php if (count($users) >0) {?>
     <ul class="users">
       <?php foreach ($users as $u) { ?>

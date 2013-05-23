@@ -217,6 +217,10 @@ aside section h1 {
 .content {
   display: block;
 }
+
+.owner{
+  font-weight: bold;
+}
 .timestamp {
   font-size: 75%;
   color: #808080;

@@ -49,7 +49,7 @@ public function view( $id = null){
 	$followed_users=$user["followed"];
 	$followers=$user["follower"];
 	$this->set('microposts', $this->Micropost->find('all',array(
-		'conditions' => array('Micropost.user_id' => $user["User"]["id"]),
+		'conditions' => array('Micropost.wall_id' => $user["User"]["id"]),
 		'order' => array('Micropost.created DESC')
 		)));
 	$this->set('followed_users', $followed_users);
@@ -187,7 +187,7 @@ public function search(){
 	$keyword = $this->request->data['User']['keyword'];
 	$this->set('keyword',$keyword);
 	$this->set('users',$this->User->find('all',array(
-        'conditions' => array('User.name LIKE ' =>"%".$keyword."%", 'User.email LIKE ' =>"%".$keyword."%"),
+        'conditions' => array('User.name LIKE ' =>"%".$keyword."%"),
         'order' => array('User.name DESC'),
       )));
 }

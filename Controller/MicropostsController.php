@@ -66,10 +66,10 @@ class MicropostsController extends AppController {
 		// $this->request->onlyAllow('post', 'delete');
 		if ($this->Micropost->delete()) {
 			$this->Session->setFlash(__('Micropost deleted'), 'flash/success');
-			$this->redirect(array('controller' => 'pages' ,'action' => 'home'));
+			$this->redirect($this->referer());
 		}
 		$this->Session->setFlash(__('Micropost was not deleted'), 'flash/error');
-		$this->redirect(array('controller' => 'pages' ,'action' => 'home'));
+		$this->redirect($this->referer());
 	}
 
 }

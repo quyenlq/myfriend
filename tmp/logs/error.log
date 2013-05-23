@@ -2975,3 +2975,128 @@ Stack Trace:
 #3 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(899): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2013-05-23 05:00:56 Error: Fatal Error (4): syntax error, unexpected '{' in [/opt/lampp/htdocs/myfriend2/View/Users/view.ctp, line 45]
+2013-05-23 05:00:56 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /myfriend2/users/view/102
+Stack Trace:
+#0 /usr/share/php/cakephp-2.3.4/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 45)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 45, Array)
+#2 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 45, Array)
+#3 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-23 05:16:31 Error: Fatal Error (4): syntax error, unexpected '[' in [/opt/lampp/htdocs/myfriend2/View/Helper/AppHelper.php, line 65]
+2013-05-23 05:16:31 Error: [FatalErrorException] syntax error, unexpected '['
+Request URL: /myfriend2/
+Stack Trace:
+#0 /usr/share/php/cakephp-2.3.4/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 65)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 65, Array)
+#2 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 65, Array)
+#3 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-23 05:18:07 Error: Fatal Error (4): syntax error, unexpected '[' in [/opt/lampp/htdocs/myfriend2/View/Helper/AppHelper.php, line 64]
+2013-05-23 05:18:07 Error: [FatalErrorException] syntax error, unexpected '['
+Request URL: /myfriend2/users/view/1
+Stack Trace:
+#0 /usr/share/php/cakephp-2.3.4/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 64)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 64, Array)
+#2 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 64, Array)
+#3 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-23 05:18:15 Error: Fatal Error (4): syntax error, unexpected ']' in [/opt/lampp/htdocs/myfriend2/View/Helper/AppHelper.php, line 64]
+2013-05-23 05:18:15 Error: [FatalErrorException] syntax error, unexpected ']'
+Request URL: /myfriend2/users/view/1
+Stack Trace:
+#0 /usr/share/php/cakephp-2.3.4/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 64)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 64, Array)
+#2 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 64, Array)
+#3 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-23 05:18:53 Error: Fatal Error (4): syntax error, unexpected ']' in [/opt/lampp/htdocs/myfriend2/View/Helper/AppHelper.php, line 64]
+2013-05-23 05:18:53 Error: [FatalErrorException] syntax error, unexpected ']'
+Request URL: /myfriend2/users/view/1
+Stack Trace:
+#0 /usr/share/php/cakephp-2.3.4/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 64)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 64, Array)
+#2 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 64, Array)
+#3 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-23 05:19:53 Error: Fatal Error (4): syntax error, unexpected ']' in [/opt/lampp/htdocs/myfriend2/View/Helper/AppHelper.php, line 64]
+2013-05-23 05:19:53 Error: [FatalErrorException] syntax error, unexpected ']'
+Request URL: /myfriend2/users/view/1
+Stack Trace:
+#0 /usr/share/php/cakephp-2.3.4/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 64)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 64, Array)
+#2 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 64, Array)
+#3 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-23 05:33:12 Error: Fatal Error (1): Call to a member function findById() on a non-object in [/opt/lampp/htdocs/myfriend2/View/Helper/AppHelper.php, line 74]
+2013-05-23 05:33:12 Error: [FatalErrorException] Call to a member function findById() on a non-object
+Request URL: /myfriend2/users/view/1
+Stack Trace:
+#0 /usr/share/php/cakephp-2.3.4/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 74)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 74, Array)
+#2 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 74, Array)
+#3 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-23 05:33:31 Error: Fatal Error (1): Call to a member function findById() on a non-object in [/opt/lampp/htdocs/myfriend2/View/Helper/AppHelper.php, line 77]
+2013-05-23 05:33:31 Error: [FatalErrorException] Call to a member function findById() on a non-object
+Request URL: /myfriend2/users/view/1
+Stack Trace:
+#0 /usr/share/php/cakephp-2.3.4/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 77)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 77, Array)
+#2 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 77, Array)
+#3 /usr/share/php/cakephp-2.3.4/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-23 05:42:08 Error: [MissingViewException] View file "/opt/lampp/htdocs/myfriend2/View/Pages/users/following/102.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/opt/lampp/htdocs/myfriend2/View/Pages/users/following/102.ctp',
+)
+Request URL: /myfriend2/pages/users/following/102
+Stack Trace:
+#0 /usr/share/php/cakephp-2.3.4/lib/Cake/View/View.php(468): View->_getViewFileName('users/following...')
+#1 /usr/share/php/cakephp-2.3.4/lib/Cake/Controller/Controller.php(948): View->render('users/following...', NULL)
+#2 /opt/lampp/htdocs/myfriend2/Controller/PagesController.php(83): Controller->render('users/following...')
+#3 [internal function]: PagesController->display('users', 'following', '102')
+#4 /usr/share/php/cakephp-2.3.4/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /usr/share/php/cakephp-2.3.4/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 /usr/share/php/cakephp-2.3.4/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /opt/lampp/htdocs/myfriend2/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2013-05-23 05:42:15 Error: [MissingViewException] View file "/opt/lampp/htdocs/myfriend2/View/Pages/users/following/102.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/opt/lampp/htdocs/myfriend2/View/Pages/users/following/102.ctp',
+)
+Request URL: /myfriend2/pages/users/following/102
+Stack Trace:
+#0 /usr/share/php/cakephp-2.3.4/lib/Cake/View/View.php(468): View->_getViewFileName('users/following...')
+#1 /usr/share/php/cakephp-2.3.4/lib/Cake/Controller/Controller.php(948): View->render('users/following...', NULL)
+#2 /opt/lampp/htdocs/myfriend2/Controller/PagesController.php(83): Controller->render('users/following...')
+#3 [internal function]: PagesController->display('users', 'following', '102')
+#4 /usr/share/php/cakephp-2.3.4/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /usr/share/php/cakephp-2.3.4/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 /usr/share/php/cakephp-2.3.4/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /opt/lampp/htdocs/myfriend2/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2013-05-23 05:42:35 Error: [MissingViewException] View file "/opt/lampp/htdocs/myfriend2/View/Pages/users/following/102.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/opt/lampp/htdocs/myfriend2/View/Pages/users/following/102.ctp',
+)
+Request URL: /myfriend2/pages/users/following/102
+Stack Trace:
+#0 /usr/share/php/cakephp-2.3.4/lib/Cake/View/View.php(468): View->_getViewFileName('users/following...')
+#1 /usr/share/php/cakephp-2.3.4/lib/Cake/Controller/Controller.php(948): View->render('users/following...', NULL)
+#2 /opt/lampp/htdocs/myfriend2/Controller/PagesController.php(83): Controller->render('users/following...')
+#3 [internal function]: PagesController->display('users', 'following', '102')
+#4 /usr/share/php/cakephp-2.3.4/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /usr/share/php/cakephp-2.3.4/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 /usr/share/php/cakephp-2.3.4/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /opt/lampp/htdocs/myfriend2/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}

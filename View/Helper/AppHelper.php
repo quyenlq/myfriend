@@ -56,4 +56,17 @@ class AppHelper extends Helper {
 		    echo "<img src=".$gravatar_url." class='gravatar'>";
 	    }
 	}
+	public function has_relationship($user, $cuser)
+	{
+		$followed_users=$cuser["followed"];
+		$followers=$cuser["follower"];
+		foreach ($followed_users as $fuser) {
+			if($fuser["id"]==$user["User"]["id"]) return true;
+		}
+		foreach ($followers as $fuser) {
+			if($fuser["id"]==$user["User"]["id"]) return true;
+		}
+		return false;
+	}
+
 }
